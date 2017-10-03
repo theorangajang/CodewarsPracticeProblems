@@ -521,3 +521,49 @@ console.log(PlayWithDigits(89, 1));
 console.log(PlayWithDigits(92, 1));
 console.log(PlayWithDigits(695, 2));
 console.log(PlayWithDigits(46288, 3));
+
+/**
+ *
+ * @param phrase
+ * @return {string}
+ * @constructor
+ */
+function YourOrderPlease(phrase) {
+    var stringArray = phrase.split(' '),
+        finalString = [];
+
+    if(phrase === "") return "";
+
+    stringArray.map(function (answer, index) {
+        var number = String(index+1), wordFound = false, j = 0;
+        return finalString.push(searchForWord(wordFound, number, j));
+    });
+    return finalString.join(' ');
+
+    function searchForWord(wordFound, numberVal, index) {
+        if(wordFound) return stringArray[index];
+        return stringArray[index].includes(numberVal) ? searchForWord(true, numberVal, index) : searchForWord(false, numberVal, index+1);
+    }
+}
+
+console.log("");
+console.log("Your Order Please!");
+console.log(YourOrderPlease("is2 Thi1s T4est 3a"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
