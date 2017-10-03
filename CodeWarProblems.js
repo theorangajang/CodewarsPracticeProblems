@@ -550,13 +550,23 @@ console.log("");
 console.log("Your Order Please!");
 console.log(YourOrderPlease("is2 Thi1s T4est 3a"));
 
+/**
+ *
+ * @param phrase
+ * @return {string}
+ * @constructor
+ */
+function Dubstep(phrase) {
+    return phrase.split('WUB').filter(answer => { return answer !== '' }).join(' ');
+}
 
 
-
-
-
-
-
+console.log("");
+console.log("DUBSTEP");
+console.log(Dubstep("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB"));
+console.log(Dubstep("AWUBBWUBC"));
+console.log(Dubstep("AWUBWUBWUBBWUBWUBWUBC"));
+console.log(Dubstep("WUBAWUBBWUBCWUB"));
 
 
 
