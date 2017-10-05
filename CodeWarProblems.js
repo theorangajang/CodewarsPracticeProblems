@@ -622,6 +622,43 @@ console.log(TwoInOne("aretheyhere", "yestheyarehere"));
 console.log(TwoInOne("loopingisfunbutdangerous", "lessdangerousthancoding"));
 console.log(TwoInOne("inmanylanguages", "theresapairoffunctions"));
 
+/**
+ *
+ * @param strVal
+ * @return {string}
+ * @constructor
+ */
+function StopSpinningWord(strVal) {
+    let finalString = [];
+
+    let reverseString = (stringToReverse) => {
+        return stringToReverse.length >= 5 ? stringToReverse.split('').reverse().join('') : stringToReverse;
+    };
+
+    let reverseStringWithoutBuiltInFunctions = (stringToReverse) => {
+        let reverseString = '';
+        for(let i=stringToReverse.length-1; i>=0; i--){
+            reverseString += stringToReverse[i];
+        }
+        return reverseString;
+    };
+
+    if(!strVal.includes(' ') && strVal.length >= 5) return reverseString(strVal);
+
+    strVal.split(' ').map((answer) => {
+        answer.length >= 5 ? finalString.push(reverseStringWithoutBuiltInFunctions(answer)) : finalString.push(answer);
+    });
+
+    return finalString.join(' ');
+}
+
+console.log('');
+console.log('Stop Spinning The Words!');
+console.log(StopSpinningWord("Hey fellow wagitrriors"));
+console.log(StopSpinningWord("This is a test"));
+console.log(StopSpinningWord("This is another test"));
+console.log(StopSpinningWord("fellow"));
+
 
 
 
