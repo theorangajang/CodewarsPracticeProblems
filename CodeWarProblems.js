@@ -659,9 +659,47 @@ console.log(StopSpinningWord("This is a test"));
 console.log(StopSpinningWord("This is another test"));
 console.log(StopSpinningWord("fellow"));
 
+/**
+ *
+ * @param dupStr
+ * @return {number}
+ * @constructor
+ */
+function CountDuplicateAmount(dupStr) {
+    let dupAmount = 0,
+        i = 0,
+        dupLetters = [];
 
+    if(dupStr.length === 0) return 0;
 
+    while (i <= dupStr.length-1){
+        let currentVal = dupStr[i], j = i+1;
 
+        if(typeof currentVal === 'string') currentVal.toLowerCase();
+
+        while(j <= dupStr.length-1 && !dupLetters.includes(currentVal)){
+            let nextVal = dupStr[j];
+
+            if(typeof nextVal === 'string') nextVal = nextVal.toLowerCase();
+
+            if(currentVal === nextVal && !dupLetters.includes(currentVal)){
+                dupLetters.push(nextVal);
+                dupAmount++;
+            }
+            j++;
+        }
+        i++;
+    }
+    return dupAmount;
+}
+
+console.log('');
+console.log('Count Amount of Duplicates');
+console.log(CountDuplicateAmount(""));
+console.log(CountDuplicateAmount("abcde"));
+console.log(CountDuplicateAmount("aabBcde"));
+console.log(CountDuplicateAmount("Indivisibility"));
+console.log(CountDuplicateAmount("Indivisibilities"));
 
 
 
