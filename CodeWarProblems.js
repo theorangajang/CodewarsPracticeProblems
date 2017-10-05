@@ -196,23 +196,23 @@ console.log(ShortestWord("bitcoin take over the world maybe who knows e"));
 
 /**
  *
- * @param arr
+ * @param stringValue
  * @return {number}
  * @constructor
  */
-function BothSidesEqual(arr) {
+function BothSidesEqual(stringValue) {
     var firstPointer = 0,
-        secondPointer = arr.length-1,
-        sumOne = arr[0],
-        sumTwo = arr[arr.length-1];
+        secondPointer = stringValue.length-1,
+        sumOne = stringValue[0],
+        sumTwo = stringValue[stringValue.length-1];
 
     while(firstPointer < secondPointer){
-        if(arr[firstPointer] < arr[secondPointer]){
+        if(stringValue[firstPointer] < stringValue[secondPointer]){
             firstPointer++;
-            sumOne += arr[firstPointer];
-        }else if(arr[firstPointer] >= arr[secondPointer]){
+            sumOne += stringValue[firstPointer];
+        }else if(stringValue[firstPointer] >= stringValue[secondPointer]){
             secondPointer--;
-            sumTwo += arr[secondPointer];
+            sumTwo += stringValue[secondPointer];
         }
 
     }
@@ -234,34 +234,34 @@ console.log(BothSidesEqual([20,10,30,10,10,15,35]));
 
 /**
  *
- * @param arr
+ * @param stringValue
  * @return {string}
  * @constructor
  */
-function WhoLikesThis(arr) {
+function WhoLikesThis(stringValue) {
     var nameString = '';
 
-    if(arr.length <= 0){
+    if(stringValue.length <= 0){
         return 'no one likes this';
-    }else if(arr.length === 1){
-        return arr[0] + ' likes this';
+    }else if(stringValue.length === 1){
+        return stringValue[0] + ' likes this';
     }
 
     for(var i=0; i<2; i++){
-        if(arr.length === 2 && i === 1){
+        if(stringValue.length === 2 && i === 1){
             nameString += 'and ';
         }
-        nameString += arr[i] + ' ';
+        nameString += stringValue[i] + ' ';
     }
 
-    if(arr.length <= 3){
-        if(arr.length === 2) {
+    if(stringValue.length <= 3){
+        if(stringValue.length === 2) {
             nameString += 'like this';
         }else{
-            nameString += 'and ' + arr[2] + ' like this';
+            nameString += 'and ' + stringValue[2] + ' like this';
         }
     }else{
-        nameString += 'and ' + (arr.length - 2) + ' others like this';
+        nameString += 'and ' + (stringValue.length - 2) + ' others like this';
     }
 
     return nameString;
@@ -309,14 +309,14 @@ function almostIncreasingSequence(sequence) {
         //     return a-b;
         // });
 
-        console.log("spliced arr: " + splicedArr);
+        console.log("spliced stringValue: " + splicedArr);
         console.log(sequence);
 
         // if(sortedArr === splicedArr){
         //     return true;
         // }
         splicedArr = temporaryArray;
-        console.log("restarting arr" + splicedArr);
+        console.log("restarting stringValue" + splicedArr);
     }
     return false;
 }
@@ -329,12 +329,12 @@ console.log(almostIncreasingSequence([1, 2, 1, 2]));
 console.log(almostIncreasingSequence([1, 4, 10, 4, 2]));
 
 
-function SumOfTwoLowest(arr){
-    var min = arr[0],
-        large = arr[1];
+function SumOfTwoLowest(stringValue){
+    var min = stringValue[0],
+        large = stringValue[1];
 
-    for(var i=0; i<=arr.length-1; i++){
-        var temp = arr[i];
+    for(var i=0; i<=stringValue.length-1; i++){
+        var temp = stringValue[i];
         if(temp < min){
             large = min;
             min = temp;
@@ -351,23 +351,23 @@ console.log("Sum of Two Lowest");
 console.log(SumOfTwoLowest([19,5,42,2,77]));
 console.log(SumOfTwoLowest([10,343445353,3453445,3453545353453]));
 
-function RemoveMin(arr) {
-    var min = arr[0];
+function RemoveMin(stringValue) {
+    var min = stringValue[0];
 
-    for(var i=1; i<=arr.length-1; i++){
-        if(arr[i] < min){
-            min = arr[i];
+    for(var i=1; i<=stringValue.length-1; i++){
+        if(stringValue[i] < min){
+            min = stringValue[i];
         }
     }
 
-    for(var j=0; j<=arr.length-1; j++){
-        if(arr[j] === min){
-            arr.splice(j,1);
+    for(var j=0; j<=stringValue.length-1; j++){
+        if(stringValue[j] === min){
+            stringValue.splice(j,1);
             break;
         }
     }
 
-    return arr;
+    return stringValue;
 }
 
 console.log("");
@@ -454,22 +454,22 @@ console.log('');
 console.log(val);
 
 /**
- * @param arr
+ * @param stringValue
  * @return {number}
  * @constructor
  */
 
-function FindEvenOrOddVal(arr) {
+function FindEvenOrOddVal(stringValue) {
     var isEven = false,
         count = 0;
 
     for(var i=0; i<=2; i++){
-        var currentAnswer = arr[i] < 0 ? -arr[i] : arr[i];
+        var currentAnswer = stringValue[i] < 0 ? -stringValue[i] : stringValue[i];
         currentAnswer % 2 === 0 || currentAnswer === 0 ? count++ : count--;
     }
     isEven = count > 0;
 
-    return arr.filter(function (answer) {return isEven ? answer % 2 !== 0 : answer % 2 === 0})[0];
+    return stringValue.filter(function (answer) {return isEven ? answer % 2 !== 0 : answer % 2 === 0})[0];
 }
 
 console.log("");
@@ -560,13 +560,92 @@ function Dubstep(phrase) {
     return phrase.split('WUB').filter(answer => { return answer !== '' }).join(' ');
 }
 
-
 console.log("");
 console.log("DUBSTEP");
 console.log(Dubstep("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB"));
 console.log(Dubstep("AWUBBWUBC"));
 console.log(Dubstep("AWUBWUBWUBBWUBWUBWUBC"));
 console.log(Dubstep("WUBAWUBBWUBCWUB"));
+
+function UniqueInOrder(stringValue) {
+    typeof stringValue[0] === 'number' ? stringValue.map((answer) => String(answer)).join(' ') : stringValue;
+    let emptyArr = [],
+        repeatedVal = stringValue[0];
+
+
+    for(let i=0; i<=stringValue.length-1; i++){
+        console.log(stringValue[i]);
+        let currentVal = stringValue[i];
+        if(currentVal !== repeatedVal){
+            emptyArr.push(repeatedVal);
+            repeatedVal = stringValue[i+1];
+        }
+    }
+    return emptyArr;
+}
+
+console.log("");
+console.log("Unique in order");
+console.log(UniqueInOrder('AAAABBBCCDAABBB'));
+console.log(UniqueInOrder('ABBCcAD'));
+console.log(UniqueInOrder([1,2,2,3,3]));
+
+function TwoInOne(stringOne, stringTwo) {
+    let newArr = [],
+        longerString = '',
+        shorterString = '';
+
+    if(stringOne.length < stringTwo.length){
+        longerString = stringTwo;
+        shorterString = stringOne;
+    }else{
+        longerString = stringOne;
+        shorterString = stringTwo;
+    }
+
+    longerString.split('').map((answer, index) => {
+        if(!newArr.includes(longerString[index])) newArr.push(longerString[index]);
+        return newArr;
+    });
+
+    shorterString.split('').map((answer, index) => {
+        if(!newArr.includes(shorterString[index])) newArr.push(shorterString[index]);
+        return newArr;
+    });
+
+    return newArr.sort().join('');
+}
+
+console.log("");
+console.log("Two to one");
+console.log(TwoInOne("aretheyhere", "yestheyarehere"));
+console.log(TwoInOne("loopingisfunbutdangerous", "lessdangerousthancoding"));
+console.log(TwoInOne("inmanylanguages", "theresapairoffunctions"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
