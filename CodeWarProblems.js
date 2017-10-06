@@ -889,9 +889,40 @@ console.log('Best Practice For Shortest String');
 console.log(BestPracticeForShortestString("bitcoin take over the world maybe who knows perhaps"));
 console.log(BestPracticeForShortestString("turns out random test cases are easier than writing out basic ones"));
 
+function FindSmallestInArray(smallestArr) {
+    return smallestArr.sort((a,b) => {
+        return b-a;
+    }).pop();
+}
+
+/**
+ *
+ * @param smallestArr
+ * @return {*}
+ * @constructor
+ */
+function BestPracticeForFindSmallestInArray(smallestArr) {
+    // what this does is that it applies Math.min function to the array
+    // This about equal to Math.min(numbers[0], ...)
+    // or Math.min(arg1, arg2, ...)
+    return Math.min.apply(null, smallestArr);
+}
 
 
+console.log('');
+console.log('Find Smallest Value In Array');
+console.log(FindSmallestInArray([78,56,232,12,8]) === 8);
+console.log(FindSmallestInArray([78,56,232,12,18]) === 12);
+console.log(FindSmallestInArray([78,56,232,412,228]) === 56);
+console.log(FindSmallestInArray([78,56,232,12,0]) === 0);
+console.log(FindSmallestInArray([1,56,232,12,8]) === 1);
 
+console.log('Best Practice Find Smallest Value In Array');
+console.log(BestPracticeForFindSmallestInArray([78,56,232,12,8]) === 8);
+console.log(BestPracticeForFindSmallestInArray([78,56,232,12,18]) === 12);
+console.log(BestPracticeForFindSmallestInArray([78,56,232,412,228]) === 56);
+console.log(BestPracticeForFindSmallestInArray([78,56,232,12,0]) === 0);
+console.log(BestPracticeForFindSmallestInArray([1,56,232,12,8]) === 1);
 
 
 

@@ -19,8 +19,8 @@
       <file leaf-file-name="CodeWarProblems.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="854" column="3" lean-forward="true" selection-start-line="854" selection-start-column="3" selection-end-line="854" selection-end-column="3" />
+            <state relative-caret-position="147">
+              <caret line="903" column="57" lean-forward="false" selection-start-line="903" selection-start-column="57" selection-end-line="903" selection-end-column="57" />
               <folding>
                 <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
                 <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
@@ -40,6 +40,10 @@
                 <element signature="n#!!block;n#ShortestString#0" expanded="false" />
                 <element signature="n#!!doc;n#BestPracticeForShortestString#0" expanded="false" />
                 <element signature="n#!!block;n#BestPracticeForShortestString#0" expanded="false" />
+                <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
+                <element signature="n#!!doc;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
+                <element signature="n#!!block;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
+                <element signature="e#24405#24472#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -182,12 +186,12 @@
       <workItem from="1507185650554" duration="2104000" />
       <workItem from="1507219767050" duration="651000" />
       <workItem from="1507227861182" duration="17995000" />
-      <workItem from="1507315369183" duration="2408000" />
+      <workItem from="1507315369183" duration="3228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34093000" />
+    <option name="totallyTimeSpent" value="34913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="853" extended-state="6" />
@@ -247,6 +251,10 @@
             <element signature="n#!!block;n#ShortestString#0" expanded="false" />
             <element signature="n#!!doc;n#BestPracticeForShortestString#0" expanded="false" />
             <element signature="n#!!block;n#BestPracticeForShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!doc;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!block;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
+            <element signature="e#24405#24472#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -274,6 +282,10 @@
             <element signature="n#!!block;n#ShortestString#0" expanded="false" />
             <element signature="n#!!doc;n#BestPracticeForShortestString#0" expanded="false" />
             <element signature="n#!!block;n#BestPracticeForShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!doc;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!block;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
+            <element signature="e#24405#24472#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -301,6 +313,10 @@
             <element signature="n#!!block;n#ShortestString#0" expanded="false" />
             <element signature="n#!!doc;n#BestPracticeForShortestString#0" expanded="false" />
             <element signature="n#!!block;n#BestPracticeForShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!doc;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!block;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
+            <element signature="e#24405#24472#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -328,6 +344,10 @@
             <element signature="n#!!block;n#ShortestString#0" expanded="false" />
             <element signature="n#!!doc;n#BestPracticeForShortestString#0" expanded="false" />
             <element signature="n#!!block;n#BestPracticeForShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!doc;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!block;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
+            <element signature="e#24405#24472#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -349,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="854" column="3" lean-forward="true" selection-start-line="854" selection-start-column="3" selection-end-line="854" selection-end-column="3" />
+        <state relative-caret-position="147">
+          <caret line="903" column="57" lean-forward="false" selection-start-line="903" selection-start-column="57" selection-end-line="903" selection-end-column="57" />
           <folding>
             <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
             <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
@@ -370,6 +390,10 @@
             <element signature="n#!!block;n#ShortestString#0" expanded="false" />
             <element signature="n#!!doc;n#BestPracticeForShortestString#0" expanded="false" />
             <element signature="n#!!block;n#BestPracticeForShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!doc;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!block;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
+            <element signature="e#24405#24472#0" expanded="false" />
           </folding>
         </state>
       </provider>
