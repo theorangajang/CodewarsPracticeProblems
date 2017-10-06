@@ -776,9 +776,66 @@ console.log('IQ Test');
 console.log(IQTest("2 4 7 8 10"));
 console.log(IQTest("1 2 1 1"));
 
+/**
+ *
+ * @param consecArr
+ * @param k
+ * @return {string}
+ * @constructor
+ */
+function LongestConsecString(consecArr, k) {
+    if(consecArr.length === 0 || k > consecArr.length || k <= 0){
+        return '';
+    }
+
+    let longestStringAmt = 0,
+        longestString = '';
+
+    for(let i=0; i<=consecArr.length-k; i++){
+        let currentSum = 0,
+            currentString = '';
+
+        for(let j=0; j<k; j++){
+            currentString += consecArr[i+j];
+            currentSum += consecArr[i+j].length;
+        }
 
 
+        if(currentSum > longestStringAmt){
+            longestStringAmt = currentSum;
+            longestString = currentString;
+        }
+    }
 
+    return longestString;
+}
+
+// console.log('');
+// console.log('Longest Consecutive String');
+// console.log(LongestConsecString(["zone", "abigail", "theta", "form", "libe", "zas", "theta", "abigail"], 2));
+
+console.log('');
+console.log('Longest Consecutive String');
+console.log(LongestConsecString(["zone", "abigail", "theta", "form", "libe", "zas", "theta", "abigail"], 2)); //"abigailtheta"
+console.log(LongestConsecString(["ejjjjmmtthh", "zxxuueeg", "aanlljrrrxx", "dqqqaaabbb", "oocccffuucccjjjkkkjyyyeehh"], 1)); //"oocccffuucccjjjkkkjyyyeehh"
+console.log(LongestConsecString([], 3)); //""
+console.log(LongestConsecString(["itvayloxrp","wkppqsztdkmvcuwvereiupccauycnjutlv","vweqilsfytihvrzlaodfixoyxvyuyvgpck"], 2)); // "wkppqsztdkmvcuwvereiupccauycnjutlvvweqilsfytihvrzlaodfixoyxvyuyvgpck"
+console.log(LongestConsecString(["wlwsasphmxx","owiaxujylentrklctozmymu","wpgozvxxiu"], 2)); // "wlwsasphmxxowiaxujylentrklctozmymu"
+console.log(LongestConsecString(["zone", "abigail", "theta", "form", "libe", "zas"], -2)); // ""
+console.log(LongestConsecString(["it","wkppv","ixoyx", "3452", "zzzzzzzzzzzz"], 3)); //"ixoyx3452zzzzzzzzzzzz"
+console.log(LongestConsecString(["it","wkppv","ixoyx", "3452", "zzzzzzzzzzzz"], 15)); // ""
+console.log(LongestConsecString(["it","wkppv","ixoyx", "3452", "zzzzzzzzzzzz"], 0)); // ""
+
+//these are the unit tests from code wars
+console.log(LongestConsecString(["zone", "abigail", "theta", "form", "libe", "zas", "theta", "abigail"], 2) === "abigailtheta");
+console.log(LongestConsecString(["ejjjjmmtthh", "zxxuueeg", "aanlljrrrxx", "dqqqaaabbb", "oocccffuucccjjjkkkjyyyeehh"], 1) === "oocccffuucccjjjkkkjyyyeehh");
+console.log(LongestConsecString([], 3) === "");
+console.log(LongestConsecString(["itvayloxrp","wkppqsztdkmvcuwvereiupccauycnjutlv","vweqilsfytihvrzlaodfixoyxvyuyvgpck"], 2) === "wkppqsztdkmvcuwvereiupccauycnjutlvvweqilsfytihvrzlaodfixoyxvyuyvgpck");
+console.log(LongestConsecString(["wlwsasphmxx","owiaxujylentrklctozmymu","wpgozvxxiu"], 2) === "wlwsasphmxxowiaxujylentrklctozmymu");
+console.log(LongestConsecString(["zone", "abigail", "theta", "form", "libe", "zas"], -2) === "");
+console.log(LongestConsecString(["it","wkppv","ixoyx", "3452", "zzzzzzzzzzzz"], 3) === "ixoyx3452zzzzzzzzzzzz");
+console.log(LongestConsecString(["it","wkppv","ixoyx", "3452", "zzzzzzzzzzzz"], 15) === "");
+console.log(LongestConsecString(["it","wkppv","ixoyx", "3452", "zzzzzzzzzzzz"], 0) === "");
 
 
 
