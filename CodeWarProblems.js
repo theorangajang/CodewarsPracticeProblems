@@ -1,5 +1,5 @@
 function VowelCount(word){
-    var vowelCount = 0;
+    let vowelCount = 0;
 
     return countVowels(0, vowelCount);
 
@@ -24,13 +24,13 @@ console.log(VowelCount("abracadabraa"));
  * @return {string}
  */
 function Mumbling(str) {
-    var strArray = [], letterArray = [], j=0;
+    let strArray = [], letterArray = [], j=0;
 
-    for(var i=0; i<=str.length-1; i++) strArray.push(i+1);
+    for(let i=0; i<=str.length-1; i++) strArray.push(i+1);
 
     while(j<strArray.length){
-        var fullString = "";
-        for(var k=0; k<strArray[j]; k++) k === 0 ? fullString += str[j].toUpperCase() : fullString += str[j].toLowerCase();
+        let fullString = "";
+        for(let k=0; k<strArray[j]; k++) k === 0 ? fullString += str[j].toUpperCase() : fullString += str[j].toLowerCase();
 
         if(j !== str.length-1){
             fullString += "-";
@@ -52,22 +52,23 @@ console.log(Mumbling("ZpglnRxqenU"));
 //     There will always be only one integer that appears an odd number of times.
 
 /**
- * @return {string}
+ *
+ * @param numArr
+ * @return {*}
+ * @constructor
  */
 function FindOddInt(numArr) {
-    var amountNumberAppearsObject = {};
+    let amountNumberAppearsObject = {};
 
     if(numArr.length === 1){
         return numArr[0];
     }
-    for(var i=0; i<=numArr.length; i++){
+    for(let i=0; i<=numArr.length; i++)
         amountNumberAppearsObject.hasOwnProperty([numArr[i]]) ?
-            amountNumberAppearsObject[numArr[i]]++ :
-            amountNumberAppearsObject[numArr[i]] = 1;
+        amountNumberAppearsObject[numArr[i]]++ :
+        amountNumberAppearsObject[numArr[i]] = 1;
 
-    }
-
-    for(var numberAppearValue in amountNumberAppearsObject){
+    for(let numberAppearValue in amountNumberAppearsObject){
         if(amountNumberAppearsObject[numberAppearValue] % 2 === 1 || amountNumberAppearsObject[numberAppearValue] === 1){
             return numberAppearValue;
         }
@@ -87,12 +88,12 @@ console.log(FindOddInt([5,4,3,2,1,5,4,3,2,10,10]));
  * @return {string}
  */
 function LeastAndGreatest(str) {
-    var stringToNumberArray = str.split(' '),
+    let stringToNumberArray = str.split(' '),
         leastVal = Number(stringToNumberArray[0]),
         greatestVal = Number(stringToNumberArray[0]);
 
-    for(var i=0; i<=stringToNumberArray.length-1; i++){
-        var currentNumberPosition = Number(stringToNumberArray[i]);
+    for(let i=0; i<=stringToNumberArray.length-1; i++){
+        let currentNumberPosition = Number(stringToNumberArray[i]);
         if(currentNumberPosition > greatestVal){
             greatestVal = currentNumberPosition;
         }else if(currentNumberPosition < leastVal){
@@ -116,9 +117,9 @@ function CompDNA(dna) {
         return "No DNA string to test";
     }
 
-    var compDNAString = '';
+    let compDNAString = '';
 
-    for(var i=0; i<=dna.length-1; i++){
+    for(let i=0; i<=dna.length-1; i++){
         switch (dna[i]){
             case 'A':
                 compDNAString += 'T';
@@ -153,9 +154,9 @@ console.log("DNA: " + CompDNA(""));
  */
 
 function SquareEveryDigit(number){
-    var numberArr = String(number).split('');
-    for(var i=0; i<=numberArr.length-1; i++){
-        var numberOfIndex = Number(numberArr[i]);
+    let numberArr = String(number).split('');
+    for(let i=0; i<=numberArr.length-1; i++){
+        let numberOfIndex = Number(numberArr[i]);
         numberArr[i] = String(Math.pow(numberOfIndex, 2));
     }
     return Number(numberArr.join(''));
@@ -172,7 +173,7 @@ console.log(SquareEveryDigit(9119));
  */
 
 function ShortestWord(str) {
-    var splitStringArray = str.split(' '),
+    let splitStringArray = str.split(' '),
         shortestWord = splitStringArray[0].length;
 
     if(str.length === 1){
@@ -181,7 +182,7 @@ function ShortestWord(str) {
         return 0;
     }
 
-    for(var i=1; i<=splitStringArray.length-1; i++){
+    for(let i=1; i<=splitStringArray.length-1; i++){
         if(splitStringArray[i].length < shortestWord){
             shortestWord = splitStringArray[i].length;
         }
@@ -201,7 +202,7 @@ console.log(ShortestWord("bitcoin take over the world maybe who knows e"));
  * @constructor
  */
 function BothSidesEqual(stringValue) {
-    var firstPointer = 0,
+    let firstPointer = 0,
         secondPointer = stringValue.length-1,
         sumOne = stringValue[0],
         sumTwo = stringValue[stringValue.length-1];
@@ -239,7 +240,7 @@ console.log(BothSidesEqual([20,10,30,10,10,15,35]));
  * @constructor
  */
 function WhoLikesThis(stringValue) {
-    var nameString = '';
+    let nameString = '';
 
     if(stringValue.length <= 0){
         return 'no one likes this';
@@ -247,7 +248,7 @@ function WhoLikesThis(stringValue) {
         return stringValue[0] + ' likes this';
     }
 
-    for(var i=0; i<2; i++){
+    for(let i=0; i<2; i++){
         if(stringValue.length === 2 && i === 1){
             nameString += 'and ';
         }
@@ -268,20 +269,20 @@ function WhoLikesThis(stringValue) {
 }
 
 //BEST PRACTICE ANSWER
-function likes(names) {
-    switch(names.length){
-        case 0:
-            return "no one likes this";
-        case 1:
-            return names[0] + " likes this";
-        case 2:
-            return names[0] + " and " + names[1] + " like this";
-        case 3:
-            return names[0] + ", " + names[1] + " and " + names[2] + " like this";
-        default:
-            return names[0] + ", " + names[1] + " and " + (names.length-2) + " others like this";
-    }
-}
+// function likes(names) {
+//     switch(names.length){
+//         case 0:
+//             return "no one likes this";
+//         case 1:
+//             return names[0] + " likes this";
+//         case 2:
+//             return names[0] + " and " + names[1] + " like this";
+//         case 3:
+//             return names[0] + ", " + names[1] + " and " + names[2] + " like this";
+//         default:
+//             return names[0] + ", " + names[1] + " and " + (names.length-2) + " others like this";
+//     }
+// }
 
 console.log("");
 console.log("Who Likes This?!");
@@ -292,20 +293,20 @@ console.log(WhoLikesThis(["Max", "John", "Mark"]));
 console.log(WhoLikesThis(["Alex", "Jacob", "Mark", "Max"]));
 
 console.log("");
-var nameArray = ["Alex", "Jacob", "Mark", "Max"];
+let nameArray = ["Alex", "Jacob", "Mark", "Max"];
 console.log(nameArray);
-var removedVals = nameArray.splice(1,2);
+let removedVals = nameArray.splice(1,2);
 console.log(nameArray);
 console.log(removedVals);
 
 
 function almostIncreasingSequence(sequence) {
-    var temporaryArray = sequence;
+    let sequenceArray = sequence;
 
-    for(var i=0; i<=sequence.length-1; i++){
+    for(let i=0; i<=sequence.length-1; i++){
         sequence.splice(i,1);
-        var splicedArr = sequence;
-        // var sortedArr = sequence.sort(function(a,b){
+        let splicedArr = sequence;
+        // let sortedArr = sequence.sort(function(a,b){
         //     return a-b;
         // });
 
@@ -315,14 +316,13 @@ function almostIncreasingSequence(sequence) {
         // if(sortedArr === splicedArr){
         //     return true;
         // }
-        splicedArr = temporaryArray;
+        splicedArr = sequenceArray;
         console.log("restarting stringValue" + splicedArr);
     }
     return false;
 }
 
 console.log("");
-var nameArray = ["Alex", "Jacob", "Mark", "Max"];
 console.log("almost increasing sequence");
 console.log(almostIncreasingSequence([1, 3, 2, 1]));
 console.log(almostIncreasingSequence([1, 2, 1, 2]));
@@ -330,11 +330,11 @@ console.log(almostIncreasingSequence([1, 4, 10, 4, 2]));
 
 
 function SumOfTwoLowest(stringValue){
-    var min = stringValue[0],
+    let min = stringValue[0],
         large = stringValue[1];
 
-    for(var i=0; i<=stringValue.length-1; i++){
-        var temp = stringValue[i];
+    for(let i=0; i<=stringValue.length-1; i++){
+        let temp = stringValue[i];
         if(temp < min){
             large = min;
             min = temp;
@@ -352,15 +352,15 @@ console.log(SumOfTwoLowest([19,5,42,2,77]));
 console.log(SumOfTwoLowest([10,343445353,3453445,3453545353453]));
 
 function RemoveMin(stringValue) {
-    var min = stringValue[0];
+    let min = stringValue[0];
 
-    for(var i=1; i<=stringValue.length-1; i++){
+    for(let i=1; i<=stringValue.length-1; i++){
         if(stringValue[i] < min){
             min = stringValue[i];
         }
     }
 
-    for(var j=0; j<=stringValue.length-1; j++){
+    for(let j=0; j<=stringValue.length-1; j++){
         if(stringValue[j] === min){
             stringValue.splice(j,1);
             break;
@@ -375,10 +375,10 @@ console.log("Remove Min");
 console.log(RemoveMin([19,5,42,2,77]));
 
 function DontGiveMeFive(start, end) {
-    var newArr = [];
+    let newArr = [];
 
-    for(var i=start; i<=end; i++){
-        var numberString = String(i);
+    for(let i=start; i<=end; i++){
+        let numberString = String(i);
         if(!numberString.includes("5")){
             newArr.push(i);
         }
@@ -402,7 +402,7 @@ console.log(DontGiveMeFive(-16,11));
  */
 
 function ExesAndOhs(str) {
-    var totalAmount = 0;
+    let totalAmount = 0;
 
     if(!str.toLowerCase().includes('x') && !str.toLowerCase().includes('o')){
         return true;
@@ -410,7 +410,7 @@ function ExesAndOhs(str) {
         return false;
     }
 
-    for(var i=0; i<=str.length-1; i++){
+    for(let i=0; i<=str.length-1; i++){
         if(str[i].toLowerCase() === 'x' || str[i].toLowerCase() === 'o'){
             totalAmount++;
         }
@@ -437,7 +437,7 @@ console.log(Math.sqrt(114));
  */
 
 function FindPerfectSquare(num) {
-    var squareRootOfNumVal = Math.sqrt(num);
+    let squareRootOfNumVal = Math.sqrt(num);
     return String(squareRootOfNumVal).includes('.') ? -1:Math.pow((squareRootOfNumVal+1), 2);
 }
 
@@ -447,7 +447,7 @@ console.log(FindPerfectSquare(121));
 console.log(FindPerfectSquare(625));
 console.log(FindPerfectSquare(114));
 
-var val = [160, 3, 1719, 19, 11, 13, -21].filter(function (answer) {
+let val = [160, 3, 1719, 19, 11, 13, -21].filter(function (answer) {
     return answer % 2 === 0;
 });
 console.log('');
@@ -460,11 +460,11 @@ console.log(val);
  */
 
 function FindEvenOrOddVal(stringValue) {
-    var isEven = false,
+    let isEven = false,
         count = 0;
 
-    for(var i=0; i<=2; i++){
-        var currentAnswer = stringValue[i] < 0 ? -stringValue[i] : stringValue[i];
+    for(let i=0; i<=2; i++){
+        let currentAnswer = stringValue[i] < 0 ? -stringValue[i] : stringValue[i];
         currentAnswer % 2 === 0 || currentAnswer === 0 ? count++ : count--;
     }
     isEven = count > 0;
@@ -483,7 +483,7 @@ console.log(FindEvenOrOddVal([160, 3, 1719, 19, 11, 13, -21]));
 console.log(FindEvenOrOddVal([2, 4, 0, 100, 4, 11, 2602, 36]));
 
 function DifferentArray(arrOne, arrTwo) {
-    var i = 0;
+    let i = 0;
     while(i < arrTwo.length){
         arrOne = arrOne.includes(arrTwo[i]) ? arrOne.filter(function (answer) { return answer !== arrTwo[i] }) : arrOne;
         i++;
@@ -500,14 +500,14 @@ console.log(DifferentArray([0,1,2],[0]));
  *
  * @param numVal
  * @param exponentVal
- * @return {Array}
+ * @return {number}
  * @constructor
  */
 function PlayWithDigits(numVal, exponentVal){
-    var sum = 0;
+    let sum = 0;
 
     numVal.toString().split('').map(function (answer) {
-        var numberValue = Number(answer);
+        let numberValue = Number(answer);
         sum += Math.pow(numberValue, exponentVal);
         exponentVal++;
     });
@@ -529,15 +529,16 @@ console.log(PlayWithDigits(46288, 3));
  * @constructor
  */
 function YourOrderPlease(phrase) {
-    var stringArray = phrase.split(' '),
+    let stringArray = phrase.split(' '),
         finalString = [];
 
     if(phrase === "") return "";
 
     stringArray.map(function (answer, index) {
-        var number = String(index+1), wordFound = false, j = 0;
+        let number = String(index+1), wordFound = false, j = 0;
         return finalString.push(searchForWord(wordFound, number, j));
     });
+
     return finalString.join(' ');
 
     function searchForWord(wordFound, numberVal, index) {
@@ -567,29 +568,13 @@ console.log(Dubstep("AWUBBWUBC"));
 console.log(Dubstep("AWUBWUBWUBBWUBWUBWUBC"));
 console.log(Dubstep("WUBAWUBBWUBCWUB"));
 
-function UniqueInOrder(stringValue) {
-    typeof stringValue[0] === 'number' ? stringValue.map((answer) => String(answer)).join(' ') : stringValue;
-    let emptyArr = [],
-        repeatedVal = stringValue[0];
-
-
-    for(let i=0; i<=stringValue.length-1; i++){
-        console.log(stringValue[i]);
-        let currentVal = stringValue[i];
-        if(currentVal !== repeatedVal){
-            emptyArr.push(repeatedVal);
-            repeatedVal = stringValue[i+1];
-        }
-    }
-    return emptyArr;
-}
-
-console.log("");
-console.log("Unique in order");
-console.log(UniqueInOrder('AAAABBBCCDAABBB'));
-console.log(UniqueInOrder('ABBCcAD'));
-console.log(UniqueInOrder([1,2,2,3,3]));
-
+/**
+ *
+ * @param stringOne
+ * @param stringTwo
+ * @return {string}
+ * @constructor
+ */
 function TwoInOne(stringOne, stringTwo) {
     let newArr = [],
         longerString = '',
@@ -717,6 +702,12 @@ console.log('Largest Pair');
 console.log(LargestPair(453857));
 console.log(LargestPair(363223311));
 
+/**
+ *
+ * @param strArr
+ * @return {string}
+ * @constructor
+ */
 function ArrayMatching(strArr) {
     let sumArr = [],
         shortArr = strArr[0].slice(1,-1).split(', '),
@@ -838,6 +829,23 @@ console.log(LongestConsecString(["it","wkppv","ixoyx", "3452", "zzzzzzzzzzzz"], 
 console.log(LongestConsecString(["it","wkppv","ixoyx", "3452", "zzzzzzzzzzzz"], 0) === "");
 
 
+/**
+ *
+ * @param num
+ * @return {boolean}
+ * @constructor
+ */
+function YouAreASquare(num) {
+    return Math.sqrt(num) % 1 === 0;
+}
+
+console.log('');
+console.log('You\'re A Square!');
+console.log(YouAreASquare(-1));
+console.log(YouAreASquare(3) );
+console.log(YouAreASquare(4) );
+console.log(YouAreASquare(25));
+console.log(YouAreASquare(26));
 
 
 
