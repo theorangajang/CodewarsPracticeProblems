@@ -19,8 +19,8 @@
       <file leaf-file-name="CodeWarProblems.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="903" column="57" lean-forward="false" selection-start-line="903" selection-start-column="57" selection-end-line="903" selection-end-column="57" />
+            <state relative-caret-position="334">
+              <caret line="939" column="33" lean-forward="true" selection-start-line="939" selection-start-column="33" selection-end-line="939" selection-end-column="33" />
               <folding>
                 <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
                 <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
@@ -44,6 +44,7 @@
                 <element signature="n#!!doc;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
                 <element signature="n#!!block;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
                 <element signature="e#24405#24472#0" expanded="false" />
+                <element signature="n#!!doc;n#SumOfOddIntegers#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -186,16 +187,15 @@
       <workItem from="1507185650554" duration="2104000" />
       <workItem from="1507219767050" duration="651000" />
       <workItem from="1507227861182" duration="17995000" />
-      <workItem from="1507315369183" duration="3228000" />
+      <workItem from="1507315369183" duration="4837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34913000" />
+    <option name="totallyTimeSpent" value="36522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="853" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25112614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -203,7 +203,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34191704" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34191704" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -255,6 +255,7 @@
             <element signature="n#!!doc;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
             <element signature="n#!!block;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
             <element signature="e#24405#24472#0" expanded="false" />
+            <element signature="n#!!doc;n#SumOfOddIntegers#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -286,6 +287,7 @@
             <element signature="n#!!doc;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
             <element signature="n#!!block;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
             <element signature="e#24405#24472#0" expanded="false" />
+            <element signature="n#!!doc;n#SumOfOddIntegers#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -317,6 +319,7 @@
             <element signature="n#!!doc;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
             <element signature="n#!!block;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
             <element signature="e#24405#24472#0" expanded="false" />
+            <element signature="n#!!doc;n#SumOfOddIntegers#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -348,6 +351,7 @@
             <element signature="n#!!doc;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
             <element signature="n#!!block;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
             <element signature="e#24405#24472#0" expanded="false" />
+            <element signature="n#!!doc;n#SumOfOddIntegers#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -369,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="903" column="57" lean-forward="false" selection-start-line="903" selection-start-column="57" selection-end-line="903" selection-end-column="57" />
+        <state relative-caret-position="334">
+          <caret line="939" column="33" lean-forward="true" selection-start-line="939" selection-start-column="33" selection-end-line="939" selection-end-column="33" />
           <folding>
             <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
             <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
@@ -394,6 +398,7 @@
             <element signature="n#!!doc;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
             <element signature="n#!!block;n#BestPracticeForFindSmallestInArray#0" expanded="false" />
             <element signature="e#24405#24472#0" expanded="false" />
+            <element signature="n#!!doc;n#SumOfOddIntegers#0" expanded="false" />
           </folding>
         </state>
       </provider>

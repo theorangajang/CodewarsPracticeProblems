@@ -924,10 +924,37 @@ console.log(BestPracticeForFindSmallestInArray([78,56,232,412,228]) === 56);
 console.log(BestPracticeForFindSmallestInArray([78,56,232,12,0]) === 0);
 console.log(BestPracticeForFindSmallestInArray([1,56,232,12,8]) === 1);
 
+//              1
+//          3     5
+//      7     9    11
+//   13    15    17    19
+// 21    23    25    27    29
+/**
+ *
+ * @param n
+ * @return {number}
+ * @constructor
+ */
+function SumOfOddIntegers(n) {
+    let sum = 0,
+        currentNum = (n*(n-1))+1;
 
+    if(n === 0) return 0;
 
+    for(let i=0; i<n; i++){
+        sum += currentNum;
+        currentNum += 2;
+    }
 
+    return sum;
+}
 
+console.log('');
+console.log('Sum of Odd Integers');
+console.log(SumOfOddIntegers(1));
+console.log(SumOfOddIntegers(42));
+console.log(SumOfOddIntegers(54));
+console.log(SumOfOddIntegers(433));
 
 
 
