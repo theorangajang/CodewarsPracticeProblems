@@ -991,6 +991,41 @@ console.log(BestPracticeForUniqueInOrder('AAaAAABBBCCDAABBB'));
 console.log(BestPracticeForUniqueInOrder('ABBCcAD'));
 console.log(BestPracticeForUniqueInOrder([1,1,1,2,2,3,3]));
 
+function MoveZerosToEnd(arrayWithZeros) {
+    let amountOfZeros = 0;
+
+    if(arrayWithZeros.length <= 0){
+        return [];
+    }
+
+    for(let i=0; i<=arrayWithZeros.length-1; i++){
+        if(arrayWithZeros[i] === 0){
+            amountOfZeros++;
+            arrayWithZeros.splice(i,1);
+            i=i-1; // must go back to last index to check 
+        }
+    }
+
+    if(amountOfZeros > 0){
+        for(let i=0; i<amountOfZeros; i++){
+            arrayWithZeros.push(0);
+        }
+    }
+
+    return arrayWithZeros;
+}
+
+console.log('');
+console.log('Move Zeros To End');
+console.log(MoveZerosToEnd([1,2,0,1,0,1,0,3,0,1]));
+console.log(MoveZerosToEnd(["a","b","c","d",1,1,3,1,9,9,0,0,0,0,0,0,0,0,0,0]));
+console.log(MoveZerosToEnd([false,1,0,1,2,0,1,3,"a"]));
+
+
+
+
+
+
 
 
 

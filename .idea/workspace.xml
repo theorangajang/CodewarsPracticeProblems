@@ -19,8 +19,8 @@
       <file leaf-file-name="CodeWarProblems.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="981" column="0" lean-forward="false" selection-start-line="981" selection-start-column="0" selection-end-line="981" selection-end-column="0" />
+            <state relative-caret-position="273">
+              <caret line="1004" column="58" lean-forward="false" selection-start-line="1004" selection-start-column="58" selection-end-line="1004" selection-end-column="58" />
               <folding>
                 <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
                 <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
@@ -191,12 +191,12 @@
       <workItem from="1507185650554" duration="2104000" />
       <workItem from="1507219767050" duration="651000" />
       <workItem from="1507227861182" duration="17995000" />
-      <workItem from="1507315369183" duration="7053000" />
+      <workItem from="1507315369183" duration="7529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38738000" />
+    <option name="totallyTimeSpent" value="39214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="853" extended-state="6" />
@@ -394,8 +394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="981" column="0" lean-forward="false" selection-start-line="981" selection-start-column="0" selection-end-line="981" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="1004" column="58" lean-forward="false" selection-start-line="1004" selection-start-column="58" selection-end-line="1004" selection-end-column="58" />
           <folding>
             <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
             <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
