@@ -749,10 +749,32 @@ console.log(ArrayMatching(["[5, 2, 3]", "[2, 2, 3, 10, 6]"]));
 console.log(ArrayMatching(["[1, 2, 1]", "[2, 1, 5, 2]"]));
 console.log(ArrayMatching(["[1, 2, 12, 1, 5, 2]", "[1, 5, 2]"]));
 
+/**
+ *
+ * @param iqString
+ * @return {number}
+ * @constructor
+ */
+function IQTest(iqString) {
+    let isEven,
+        count = 0;
+    iqString = iqString.split(' ');
+    for(let i=0; i<=iqString.length-1; i++)
+        Number(iqString[i]) % 2 === 0 ? count ++ : count --;
 
+    isEven = count > 1;
 
+    let filteredArr = iqString.filter(function (element) {
+        return isEven ? Number(element) % 2 !== 0 : Number(element) % 2 === 0;
+    });
 
+    return iqString.indexOf(filteredArr[0]) + 1;
+}
 
+console.log('');
+console.log('IQ Test');
+console.log(IQTest("2 4 7 8 10"));
+console.log(IQTest("1 2 1 1"));
 
 
 
