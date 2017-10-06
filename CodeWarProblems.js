@@ -924,11 +924,6 @@ console.log(BestPracticeForFindSmallestInArray([78,56,232,412,228]) === 56);
 console.log(BestPracticeForFindSmallestInArray([78,56,232,12,0]) === 0);
 console.log(BestPracticeForFindSmallestInArray([1,56,232,12,8]) === 1);
 
-//              1
-//          3     5
-//      7     9    11
-//   13    15    17    19
-// 21    23    25    27    29
 /**
  *
  * @param n
@@ -955,6 +950,53 @@ console.log(SumOfOddIntegers(1));
 console.log(SumOfOddIntegers(42));
 console.log(SumOfOddIntegers(54));
 console.log(SumOfOddIntegers(433));
+
+function UniqueInOrder(stringValue) {
+    if(typeof stringValue === 'string'){
+        stringValue = stringValue.split('');
+    }
+
+    for(let i=0; i<=stringValue.length-1; i++){
+        let currentIndex = stringValue[i];
+        if(stringValue[i-1] === currentIndex && stringValue[i+1] === currentIndex){
+            stringValue.splice(i,2);
+            i = i-1; //must go back one to recheck
+        }else if(stringValue[i-1] === currentIndex && stringValue[i+1] !== currentIndex){
+            stringValue.splice(i,1);
+        }
+    }
+    return stringValue;
+}
+
+function BestPracticeForUniqueInOrder(stringValue) {
+    if(typeof stringValue === 'string') stringValue = stringValue.split('');
+
+    let res = [];
+    for (let i = 0; i < stringValue.length; i++) {
+        // pushes to array only if the current value doesn't equal the next value
+        if (stringValue[i] !== stringValue[i+1])
+            res.push(stringValue[i]);
+    }
+    return res;
+}
+
+console.log('');
+console.log('Unique In Order');
+console.log(UniqueInOrder('AAaAAABBBCCDAABBB'));
+console.log(UniqueInOrder('ABBCcAD'));
+console.log(UniqueInOrder([1,1,1,2,2,3,3]));
+
+console.log('Best Practices For Unique In Order');
+console.log(BestPracticeForUniqueInOrder('AAaAAABBBCCDAABBB'));
+console.log(BestPracticeForUniqueInOrder('ABBCcAD'));
+console.log(BestPracticeForUniqueInOrder([1,1,1,2,2,3,3]));
+
+
+
+
+
+
+
 
 
 
