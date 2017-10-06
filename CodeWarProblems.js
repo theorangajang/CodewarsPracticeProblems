@@ -847,6 +847,57 @@ console.log(YouAreASquare(4) );
 console.log(YouAreASquare(25));
 console.log(YouAreASquare(26));
 
+/**
+ *
+ * @param stringVal
+ * @return {*}
+ * @constructor
+ */
+function ShortestString(stringVal) {
+    let shortestAmt;
+    if(stringVal.length === 0){
+        return 0;
+    }else if(!stringVal.includes(' ')){
+        return stringVal.length;
+    }
+
+    stringVal = stringVal.split(' ');
+    shortestAmt = stringVal[0].length;
+    stringVal.map((answer) => {
+        if(answer.length < shortestAmt)
+            shortestAmt = answer.length;
+    });
+
+    return shortestAmt;
+}
+
+/**
+ *
+ * @param stringVal
+ * @return {*}
+ * @constructor
+ */
+function BestPracticeForShortestString(stringVal) {
+    return Math.min.apply(null,stringVal.split(' ').map(w => w.length));
+}
+
+console.log('');
+console.log('Shortest String');
+console.log(ShortestString("bitcoin take over the world maybe who knows perhaps"));
+console.log(ShortestString("turns out random test cases are easier than writing out basic ones"));
+console.log('Best Practice For Shortest String');
+console.log(BestPracticeForShortestString("bitcoin take over the world maybe who knows perhaps"));
+console.log(BestPracticeForShortestString("turns out random test cases are easier than writing out basic ones"));
+
+
+
+
+
+
+
+
+
+
 
 
 

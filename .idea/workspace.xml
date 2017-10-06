@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="577cabb3-313f-4217-baf1-725ed6df9c17" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeWarProblems.js" afterPath="$PROJECT_DIR$/CodeWarProblems.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="CodeWarProblems.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="847" column="31" lean-forward="true" selection-start-line="847" selection-start-column="31" selection-end-line="847" selection-end-column="31" />
+            <state relative-caret-position="395">
+              <caret line="854" column="3" lean-forward="true" selection-start-line="854" selection-start-column="3" selection-end-line="854" selection-end-column="3" />
               <folding>
                 <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
                 <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
@@ -35,6 +34,12 @@
                 <element signature="n#!!block;n#IQTest#0" expanded="false" />
                 <element signature="n#!!block;n#LongestConsecString#0" expanded="false" />
                 <element signature="e#19739#19765#0" expanded="false" />
+                <element signature="n#!!doc;n#YouAreASquare#0" expanded="false" />
+                <element signature="n#!!block;n#YouAreASquare#0" expanded="false" />
+                <element signature="n#!!doc;n#ShortestString#0" expanded="false" />
+                <element signature="n#!!block;n#ShortestString#0" expanded="false" />
+                <element signature="n#!!doc;n#BestPracticeForShortestString#0" expanded="false" />
+                <element signature="n#!!block;n#BestPracticeForShortestString#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -177,12 +182,12 @@
       <workItem from="1507185650554" duration="2104000" />
       <workItem from="1507219767050" duration="651000" />
       <workItem from="1507227861182" duration="17995000" />
-      <workItem from="1507315369183" duration="1201000" />
+      <workItem from="1507315369183" duration="2408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32886000" />
+    <option name="totallyTimeSpent" value="34093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="853" extended-state="6" />
@@ -236,6 +241,12 @@
             <element signature="n#!!block;n#IQTest#0" expanded="false" />
             <element signature="n#!!block;n#LongestConsecString#0" expanded="false" />
             <element signature="e#19739#19765#0" expanded="false" />
+            <element signature="n#!!doc;n#YouAreASquare#0" expanded="false" />
+            <element signature="n#!!block;n#YouAreASquare#0" expanded="false" />
+            <element signature="n#!!doc;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!doc;n#BestPracticeForShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#BestPracticeForShortestString#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -257,6 +268,12 @@
             <element signature="n#!!block;n#IQTest#0" expanded="false" />
             <element signature="n#!!block;n#LongestConsecString#0" expanded="false" />
             <element signature="e#19739#19765#0" expanded="false" />
+            <element signature="n#!!doc;n#YouAreASquare#0" expanded="false" />
+            <element signature="n#!!block;n#YouAreASquare#0" expanded="false" />
+            <element signature="n#!!doc;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!doc;n#BestPracticeForShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#BestPracticeForShortestString#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -278,6 +295,12 @@
             <element signature="n#!!block;n#IQTest#0" expanded="false" />
             <element signature="n#!!block;n#LongestConsecString#0" expanded="false" />
             <element signature="e#19739#19765#0" expanded="false" />
+            <element signature="n#!!doc;n#YouAreASquare#0" expanded="false" />
+            <element signature="n#!!block;n#YouAreASquare#0" expanded="false" />
+            <element signature="n#!!doc;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!doc;n#BestPracticeForShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#BestPracticeForShortestString#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -299,6 +322,12 @@
             <element signature="n#!!block;n#IQTest#0" expanded="false" />
             <element signature="n#!!block;n#LongestConsecString#0" expanded="false" />
             <element signature="e#19739#19765#0" expanded="false" />
+            <element signature="n#!!doc;n#YouAreASquare#0" expanded="false" />
+            <element signature="n#!!block;n#YouAreASquare#0" expanded="false" />
+            <element signature="n#!!doc;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!doc;n#BestPracticeForShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#BestPracticeForShortestString#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -310,10 +339,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="1032" column="14" lean-forward="true" selection-start-line="1032" selection-start-column="14" selection-end-line="1032" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="847" column="31" lean-forward="true" selection-start-line="847" selection-start-column="31" selection-end-line="847" selection-end-column="31" />
+        <state relative-caret-position="395">
+          <caret line="854" column="3" lean-forward="true" selection-start-line="854" selection-start-column="3" selection-end-line="854" selection-end-column="3" />
           <folding>
             <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
             <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
@@ -327,6 +364,12 @@
             <element signature="n#!!block;n#IQTest#0" expanded="false" />
             <element signature="n#!!block;n#LongestConsecString#0" expanded="false" />
             <element signature="e#19739#19765#0" expanded="false" />
+            <element signature="n#!!doc;n#YouAreASquare#0" expanded="false" />
+            <element signature="n#!!block;n#YouAreASquare#0" expanded="false" />
+            <element signature="n#!!doc;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!doc;n#BestPracticeForShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#BestPracticeForShortestString#0" expanded="false" />
           </folding>
         </state>
       </provider>
