@@ -717,6 +717,38 @@ console.log('Largest Pair');
 console.log(LargestPair(453857));
 console.log(LargestPair(363223311));
 
+function ArrayMatching(strArr) {
+    let sumArr = [],
+        shortArr = strArr[0].slice(1,-1).split(', '),
+        largeArr = strArr[1].slice(1,-1).split(', '),
+        difference = 0;
+
+    if(shortArr.length !== largeArr.length){
+        if(shortArr.length > largeArr.length){
+            let temp = largeArr;
+            largeArr = shortArr;
+            shortArr = temp;
+        }
+
+        difference = largeArr.length - shortArr.length;
+        for(let i=0; i<difference; i++){
+            shortArr.push('0');
+        }
+    }
+
+    largeArr.map(function (answer, index) {
+        let sum = Number(answer) + Number(shortArr[index]);
+        sumArr.push(sum);
+    });
+    return sumArr.join('-');
+}
+
+console.log('');
+console.log('Array Matching');
+console.log(ArrayMatching(["[5, 2, 3]", "[2, 2, 3, 10, 6]"]));
+console.log(ArrayMatching(["[1, 2, 1]", "[2, 1, 5, 2]"]));
+console.log(ArrayMatching(["[1, 2, 12, 1, 5, 2]", "[1, 5, 2]"]));
+
 
 
 
