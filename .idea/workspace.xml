@@ -19,8 +19,8 @@
       <file leaf-file-name="CodeWarProblems.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="668" column="4" lean-forward="false" selection-start-line="668" selection-start-column="4" selection-end-line="692" selection-end-column="21" />
+            <state relative-caret-position="327">
+              <caret line="710" column="47" lean-forward="false" selection-start-line="710" selection-start-column="47" selection-end-line="710" selection-end-column="47" />
               <folding>
                 <element signature="e#1574#1753#0" expanded="false" />
                 <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
@@ -31,6 +31,7 @@
                 <element signature="n#!!block;n#UniqueInOrder#0" expanded="false" />
                 <element signature="n#!!block;n#TwoInOne#0" expanded="false" />
                 <element signature="n#!!block;n#StopSpinningWord#0" expanded="false" />
+                <element signature="n#!!block;n#CountDuplicateAmount#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -73,9 +74,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1043" />
+    <option name="width" value="930" />
     <option name="height" value="853" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -102,7 +103,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -115,7 +116,21 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CodewarsPracticeProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodewarsPracticeProblems" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -158,16 +173,15 @@
       <workItem from="1507051751918" duration="10772000" />
       <workItem from="1507185650554" duration="2104000" />
       <workItem from="1507219767050" duration="651000" />
-      <workItem from="1507227861182" duration="8593000" />
+      <workItem from="1507227861182" duration="10620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22283000" />
+    <option name="totallyTimeSpent" value="24310000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="853" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="930" height="853" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25223437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -175,7 +189,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39985693" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3412162" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -212,6 +226,7 @@
             <element signature="n#!!block;n#UniqueInOrder#0" expanded="false" />
             <element signature="n#!!block;n#TwoInOne#0" expanded="false" />
             <element signature="n#!!block;n#StopSpinningWord#0" expanded="false" />
+            <element signature="n#!!block;n#CountDuplicateAmount#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -230,6 +245,7 @@
             <element signature="n#!!block;n#UniqueInOrder#0" expanded="false" />
             <element signature="n#!!block;n#TwoInOne#0" expanded="false" />
             <element signature="n#!!block;n#StopSpinningWord#0" expanded="false" />
+            <element signature="n#!!block;n#CountDuplicateAmount#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -248,6 +264,7 @@
             <element signature="n#!!block;n#UniqueInOrder#0" expanded="false" />
             <element signature="n#!!block;n#TwoInOne#0" expanded="false" />
             <element signature="n#!!block;n#StopSpinningWord#0" expanded="false" />
+            <element signature="n#!!block;n#CountDuplicateAmount#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -261,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="668" column="4" lean-forward="false" selection-start-line="668" selection-start-column="4" selection-end-line="692" selection-end-column="21" />
+        <state relative-caret-position="327">
+          <caret line="710" column="47" lean-forward="false" selection-start-line="710" selection-start-column="47" selection-end-line="710" selection-end-column="47" />
           <folding>
             <element signature="e#1574#1753#0" expanded="false" />
             <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
@@ -273,6 +290,7 @@
             <element signature="n#!!block;n#UniqueInOrder#0" expanded="false" />
             <element signature="n#!!block;n#TwoInOne#0" expanded="false" />
             <element signature="n#!!block;n#StopSpinningWord#0" expanded="false" />
+            <element signature="n#!!block;n#CountDuplicateAmount#0" expanded="false" />
           </folding>
         </state>
       </provider>

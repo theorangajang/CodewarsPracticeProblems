@@ -701,12 +701,21 @@ console.log(CountDuplicateAmount("aabBcde"));
 console.log(CountDuplicateAmount("Indivisibility"));
 console.log(CountDuplicateAmount("Indivisibilities"));
 
+function LargestPair(numVal) {
+    let sortedDupArray = [];
+    numVal = numVal.toString();
+    for(let i=0; i<numVal.length-1; i++){
+        let duplicateVal = Number(numVal[i] + numVal[i+1]);
+        sortedDupArray.push(duplicateVal);
+    }
+    sortedDupArray.sort((a,b) => { return a-b; });
+    return sortedDupArray[sortedDupArray.length-1];
+}
 
-
-
-
-
-
+console.log('');
+console.log('Largest Pair');
+console.log(LargestPair(453857));
+console.log(LargestPair(363223311));
 
 
 
