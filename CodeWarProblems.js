@@ -1067,9 +1067,31 @@ console.log(SumMultiplier([2, 2, 2, 2, 4, 1]));
 console.log(SumMultiplier([4, 5, 5, 5, 12]));
 console.log(SumMultiplier([1, 1, 2, 10, 3, 1, 12]));
 
+/**
+ *
+ * @param numVal
+ * @return {boolean}
+ * @constructor
+ */
+function PrimeTime(numVal) {
+    if(numVal === 1){
+        return false;
+    }else if(numVal <= 3 || numVal === 5 || numVal === 7){
+        return true;
+    }
 
+    for(let i=4; i<=10; i++){
+        if(numVal % i === 0)
+            return false;
+    }
 
+    return true;
+}
 
+console.log('');
+console.log('Prime Time');
+console.log(PrimeTime(19));
+console.log(PrimeTime(110));
 
 
 
