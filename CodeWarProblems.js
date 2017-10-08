@@ -1036,7 +1036,36 @@ console.log('Power Set count');
 console.log(PowerSetCount([1, 2, 3, 4]));
 console.log(PowerSetCount([5, 6]));
 
+/**
+ *
+ * @param sumArray
+ * @return {boolean}
+ * @constructor
+ */
+function SumMultiplier(sumArray) {
+    let sumValue = 0;
+    sumArray = sumArray.sort(function (a, b) { return a-b; });
+    sumArray.map(function (element) {
+        sumValue += element;
+    });
 
+    sumValue *= 2;
+    console.log(sumValue);
+    console.log(sumArray);
+
+    for(let i=0; i<sumArray.length-1; i++){
+        let currentMultiplierValue = sumArray[sumArray.length-1] * sumArray[i];
+        console.log(currentMultiplierValue);
+        if(currentMultiplierValue > sumValue) return true;
+    }
+    return false;
+}
+
+console.log('');
+console.log('Sum Multiplier');
+console.log(SumMultiplier([2, 2, 2, 2, 4, 1]));
+console.log(SumMultiplier([4, 5, 5, 5, 12]));
+console.log(SumMultiplier([1, 1, 2, 10, 3, 1, 12]));
 
 
 
