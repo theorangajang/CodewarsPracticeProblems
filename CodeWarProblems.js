@@ -1002,7 +1002,7 @@ function MoveZerosToEnd(arrayWithZeros) {
         if(arrayWithZeros[i] === 0){
             amountOfZeros++;
             arrayWithZeros.splice(i,1);
-            i=i-1; // must go back to last index to check 
+            i=i-1; // must go back to last index to check
         }
     }
 
@@ -1021,6 +1021,20 @@ console.log(MoveZerosToEnd([1,2,0,1,0,1,0,3,0,1]));
 console.log(MoveZerosToEnd(["a","b","c","d",1,1,3,1,9,9,0,0,0,0,0,0,0,0,0,0]));
 console.log(MoveZerosToEnd([false,1,0,1,2,0,1,3,"a"]));
 
+/**
+ *
+ * @param setArray
+ * @return {number}
+ * @constructor
+ */
+function PowerSetCount(setArray) {
+    return Math.pow(2, setArray.length);
+}
+
+console.log('');
+console.log('Power Set count');
+console.log(PowerSetCount([1, 2, 3, 4]));
+console.log(PowerSetCount([5, 6]));
 
 
 
