@@ -1298,6 +1298,54 @@ console.log('Simple Mode');
 console.log(SimpleMode([5,5,2,2,1]));
 console.log(SimpleMode([3,4,1,6,10]));
 
+/**
+ *
+ * @param str
+ * @param num
+ * @return {string}
+ * @constructor
+ */
+function CaesarCipher(str, num) {
+    let newString = '';
+
+    if(str === '' || num === 0)
+        return str;
+
+
+    for(let i=0; i<=str.length-1; i++){
+        let currentCharCode = str.codePointAt(i);
+        if(str[i].match(/[A-Z]/)){
+            currentCharCode = (currentCharCode + num) > 90 ? ((currentCharCode+num) - 90) + 64 : currentCharCode + num;
+        }else if( str[i].match(/[a-z]/)){
+            currentCharCode = (currentCharCode + num) > 122 ? currentCharCode = ((currentCharCode+num) - 122) + 96 : currentCharCode + num;
+        }
+        newString += String.fromCodePoint(currentCharCode);
+    }
+
+    return newString;
+}
+
+console.log('');
+console.log('Caesar Cipher');
+console.log(CaesarCipher("Hello akd", 4));
+console.log(CaesarCipher("abc", 0));
+console.log(CaesarCipher("coderBYTE", 2));
+console.log(CaesarCipher("coderBzZ", 2));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
