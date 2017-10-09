@@ -1208,6 +1208,51 @@ console.log(LetterCount("Hello apple pie"));
 console.log(LetterCount("No words"));
 
 
+/**
+ *
+ * @param num
+ * @return {number}
+ * @constructor
+ */
+function PrimeMover(num) {
+    let count = 4,
+        currentNum = 7;
+
+    if(num === 1){
+        return 2;
+    }else if(num === 2){
+        return 3;
+    }else if(num === 3){
+        return 5;
+    }
+
+    while(count <= num || count <= 10000){
+        let isPrime = true;
+        currentNum++;
+
+        for(let i=2; i<currentNum; i++){
+            if(currentNum % i === 0)
+                isPrime = false;
+        }
+
+        if(isPrime)
+            count++;
+
+        if(count === num)
+            return currentNum;
+
+    }
+
+    return -1;
+}
+
+console.log('');
+console.log('Prime Mover');
+console.log(PrimeMover(1));
+console.log(PrimeMover(9));
+console.log(PrimeMover(100));
+
+
 
 
 
