@@ -1252,8 +1252,51 @@ console.log(PrimeMover(1));
 console.log(PrimeMover(9));
 console.log(PrimeMover(100));
 
+/**
+ *
+ * @param modeArray
+ * @return {number}
+ * @constructor
+ */
+
+function SimpleMode(modeArray) {
+    let numOfAppearArrary = [],
+        maxAmount,
+        maxNumber;
+
+    for(let i=0; i<=modeArray.length-1; i++){
+        let currentNumber = modeArray[i],
+            totalAmountOfAppearances = 1,
+            j = i+1;
+        while (j <= modeArray.length-1){
+            if(currentNumber === modeArray[j])
+                totalAmountOfAppearances++;
+            j++;
+        }
+        numOfAppearArrary.push({
+            "number": currentNumber,
+            "amount": totalAmountOfAppearances
+        })
+    }
+
+    maxAmount = numOfAppearArrary[0].amount;
+    maxNumber = numOfAppearArrary[0].number;
+
+    for(let i=1; i<=numOfAppearArrary.length-1; i++){
+        if(numOfAppearArrary[i].amount > maxAmount){
+            maxAmount = numOfAppearArrary[i].amount;
+            maxNumber = numOfAppearArrary[i].number;
+        }
+    }
 
 
+    return maxAmount > 1 ? maxNumber : -1;
+}
+
+console.log('');
+console.log('Simple Mode');
+console.log(SimpleMode([5,5,2,2,1]));
+console.log(SimpleMode([3,4,1,6,10]));
 
 
 
