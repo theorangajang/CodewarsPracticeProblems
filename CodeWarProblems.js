@@ -1329,6 +1329,7 @@ console.log('');
 console.log('Caesar Cipher');
 console.log(CaesarCipher("Hello akd", 4));
 console.log(CaesarCipher("abc", 0));
+console.log(CaesarCipher("abc", 1));
 console.log(CaesarCipher("coderBYTE", 2));
 console.log(CaesarCipher("coderBzZ", 2));
 

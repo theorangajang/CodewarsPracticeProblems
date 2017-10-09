@@ -1,0 +1,21 @@
+{
+  "name": "CodewarsPracticeProblems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CodeWarProblems.js",
+  "scripts": {
+    "start": "nodemon --watch CodeWarProblems.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theorangajang/CodewarsPracticeProblems.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theorangajang/CodewarsPracticeProblems/issues"
+  },
+  "homepage": "https://github.com/theorangajang/CodewarsPracticeProblems#readme"
+}
