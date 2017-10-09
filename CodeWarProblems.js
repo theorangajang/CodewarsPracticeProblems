@@ -1093,6 +1093,119 @@ console.log('Prime Time');
 console.log(PrimeTime(19));
 console.log(PrimeTime(110));
 
+/**
+ *
+ * @param sumArray
+ * @return {boolean}
+ * @constructor
+ */
+function ArrayAddition(arr) {
+    // if(sumArray.length === 0 || sumArray.length === 1 || sumArray.length === 2){
+    //     return false;
+    // }
+    //
+    // let sumIsLess = true,
+    //     largestVal;
+    //
+    // sumArray = sumArray.sort(function (a, b) { return a-b; });
+    // console.log(sumArray);
+    // largestVal = sumArray[sumArray.length-1];
+    //
+    // for(let i=0; i<sumArray.length-1; i++){
+    //     let currentSum = sumArray[i],
+    //         j = sumArray.length - 2;
+    //
+    //     sumIsLess = true;
+    //
+    //     while(j > i && sumIsLess){
+    //         currentSum += sumArray[j];
+    //         console.log(currentSum);
+    //
+    //         if(currentSum > largestVal){
+    //             sumIsLess = false;
+    //         }else if(currentSum === largestVal){
+    //             return true;
+    //         }
+    //         j--;
+    //     }
+    // }
+    // return false;
+
+    const max = Math.max(...arr);
+    arr.splice(arr.indexOf(max), 1);
+    for (let i = 0; i < arr.length; i++) {
+        let runningSum = arr[i];
+        for (let j = 0; j < arr.length; j++) {
+            if (i === j) { continue; }
+            runningSum += arr[j];
+            if (runningSum === max) {
+                return true;
+            }
+        }
+    }
+    // code goes here
+    return false;
+}
+
+console.log('');
+console.log('Array Addition');
+console.log(ArrayAddition([5,7,16,1,2]));
+console.log(ArrayAddition([3,5,-1,8,12]));
+
+/**
+ *
+ * @param str
+ * @return {number}
+ * @constructor
+ */
+
+function LetterCount(str) {
+    let amountOfWordsArr = [],
+        max,
+        word;
+
+    str = str.split(' ');
+
+    for(let i=0; i<=str.length-1; i++){
+        let maxCount = 0,
+            currentAmount = 1,
+            j = 0;
+
+        while (j <= str[i].length-1){
+            let k = j+1;
+            while (k <= str[i].length-1){
+                if(str[i][j] === str[i][k])
+                    currentAmount++;
+                k++;
+            }
+            if(currentAmount > maxCount)
+                maxCount = currentAmount;
+
+            j++;
+        }
+
+        amountOfWordsArr.push({
+            "word": str[i],
+            "maxAmount": maxCount
+        });
+    }
+
+    max = amountOfWordsArr[0].maxAmount;
+    word = amountOfWordsArr[0].word;
+    amountOfWordsArr.map(function (element) {
+       if(element.maxAmount > max)
+           max = element.maxAmount;
+           word = element.word;
+
+    });
+
+    return max > 1 ? word : -1;
+}
+
+console.log('');
+console.log('Letter Count');
+console.log(LetterCount("Hello apple pie"));
+console.log(LetterCount("No words"));
 
 
 
