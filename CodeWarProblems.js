@@ -1395,14 +1395,110 @@ console.log('Run Length');
 console.log(RunLength("aabbcde"));
 console.log(RunLength("wwwbbbw"));
 
+/**
+ *
+ * @param arthGeoArr
+ * @return {*}
+ * @constructor
+ */
+function ArithGeoTwo(arthGeoArr) {
+    let isArithmetic = false,
+        isGeometric = false;
 
+    for(let i=1; i<arthGeoArr.length-1; i++){
+        let prev = arthGeoArr[i-1],
+            current = arthGeoArr[i],
+            next = arthGeoArr[i+1];
 
+        if((current-prev === next-current) && isGeometric === false){
+            isArithmetic = true;
+        }else if((current/prev === next/current) && isArithmetic === false){
+            isGeometric = true;
+        }else{
+            return -1;
+        }
+    }
 
+    if(isArithmetic){
+        return 'Arithmetic';
+    }else if(isGeometric){
+        return 'Geometric';
+    }
+}
 
+console.log('');
+console.log('Arth Geo II');
+console.log(ArithGeoTwo([5,10,15]));
+console.log(ArithGeoTwo([2,4,16,24]));
+console.log(ArithGeoTwo([2, 6, 18, 54]));
+console.log(ArithGeoTwo([1,2,3,100]));
 
+/**
+ *
+ * @param twoSumArr
+ * @return {string}
+ * @constructor
+ */
+function TwoSum(twoSumArr) {
+    let goal = twoSumArr.shift(),
+        arrOfPairs = [];
 
+    for(let i=0; i<=twoSumArr.length-1; i++){
+        let current = twoSumArr[i],
+            j = i+1;
+        while(j <= twoSumArr.length-1){
+            let sum = current + twoSumArr[j];
+            if(sum === goal){
+                arrOfPairs.push([current, twoSumArr[j]]);
+            }
+            j++;
+        }
+    }
 
+    return arrOfPairs.length > 0 ? arrOfPairs.join(' ') : -1;
+}
 
+console.log('');
+console.log('Two Sum');
+console.log(TwoSum([17, 4, 5, 6, 10, 11, 4, -3, -5, 3, 15, 2, 7]));
+console.log(TwoSum([7, 6, 4, 1, 7, -2, 3, 12]));
+
+/**
+ *
+ * @param tripletArr
+ * @return {*}
+ * @constructor
+ */
+function ThreeSum(tripletArr) {
+    let goal = tripletArr.shift();
+
+    if(tripletArr.length < 4)
+        return false;
+
+    for(let i=0; i<=tripletArr.length-1; i++){
+        let current = tripletArr[i],
+            j = i+1;
+
+        while(j <= tripletArr.length-1){
+            let k = j+1;
+                while(k <= tripletArr.length - 1){
+                    let sum = current + tripletArr[j] + tripletArr[k];
+                    if(sum === goal)
+                        return true;
+                    k++;
+                }
+            j++;
+        }
+    }
+    return false;
+}
+
+console.log('');
+console.log('Triple Arr');
+console.log(ThreeSum([10, 2, 3, 1, 5, 3, 1, 4, -4, -3, -2]));
+console.log(ThreeSum([12, 3, 1, -5, -4, 7]));
+console.log(ThreeSum([64, 3, 50, 45, 32, 14, 50, 45, 31, 66, 22, 15, 16, 20]));
+console.log(ThreeSum([10, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5, 5, 5, 5, 5, 8, -2, -2, -2, -2, -1, 7]));
 
 
 
