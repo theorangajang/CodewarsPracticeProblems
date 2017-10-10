@@ -1338,6 +1338,35 @@ console.log(ThirdGreatest(["coder","byte","code"]));
 console.log(ThirdGreatest(["abc","defg","z","hijk"]));
 console.log(ThirdGreatest(["hello","world","world"]));
 
+/**
+ *
+ * @param num1
+ * @param num2
+ * @return {*}
+ * @constructor
+ */
+function GCF(num1, num2) {
+    let larger = num1,
+        smaller = num2,
+        remainder;
+
+    if(num1 === num2){
+        return 1;
+    }else if(num2 > num1){
+        larger = num2;
+        smaller = num1
+    }
+
+    remainder = larger % smaller;
+    return remainder === 0 ? smaller : remainder;
+}
+
+console.log('');
+console.log('GCF');
+console.log(GCF(8,8));
+console.log(GCF(8,16));
+console.log(GCF(100,8));
+console.log(GCF(100,50));
 
 
 
