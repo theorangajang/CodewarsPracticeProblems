@@ -295,10 +295,6 @@ console.log(WhoLikesThis(["Alex", "Jacob", "Mark", "Max"]));
 console.log("");
 let nameArray = ["Alex", "Jacob", "Mark", "Max"];
 console.log(nameArray);
-let removedVals = nameArray.splice(1,2);
-console.log(nameArray);
-console.log(removedVals);
-
 
 function almostIncreasingSequence(sequence) {
     let sequenceArray = sequence;
@@ -446,12 +442,6 @@ console.log("Find Perfect Square");
 console.log(FindPerfectSquare(121));
 console.log(FindPerfectSquare(625));
 console.log(FindPerfectSquare(114));
-
-let val = [160, 3, 1719, 19, 11, 13, -21].filter(function (answer) {
-    return answer % 2 === 0;
-});
-console.log('');
-console.log(val);
 
 /**
  * @param stringValue
@@ -1333,7 +1323,20 @@ console.log(CaesarCipher("abc", 1));
 console.log(CaesarCipher("coderBYTE", 2));
 console.log(CaesarCipher("coderBzZ", 2));
 
+function ThirdGreatest(strArray) {
+    strArray.sort(function(a, b) {
+        return b.length - a.length
+    });
 
+    //don't need to splice array since you only care about one variable
+    return strArray[2];
+}
+
+console.log('');
+console.log('Third Greatest');
+console.log(ThirdGreatest(["coder","byte","code"]));
+console.log(ThirdGreatest(["abc","defg","z","hijk"]));
+console.log(ThirdGreatest(["hello","world","world"]));
 
 
 

@@ -20,15 +20,48 @@
       <file leaf-file-name="CodeWarProblems.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="1336" column="0" lean-forward="true" selection-start-line="1336" selection-start-column="0" selection-end-line="1336" selection-end-column="0" />
+            <state relative-caret-position="258">
+              <caret line="1330" column="71" lean-forward="false" selection-start-line="1330" selection-start-column="71" selection-end-line="1330" selection-end-column="71" />
               <folding>
+                <element signature="n#!!block;n#VowelCount#0" expanded="false" />
+                <element signature="n#!!block;n#Mumbling#0" expanded="false" />
+                <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
+                <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
+                <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
+                <element signature="n#!!block;n#CompDNA#0" expanded="false" />
+                <element signature="n#!!block;n#SquareEveryDigit#0" expanded="false" />
+                <element signature="n#!!block;n#ShortestWord#0" expanded="false" />
+                <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
+                <element signature="n#!!block;n#WhoLikesThis#0" expanded="false" />
+                <element signature="n#!!block;n#almostIncreasingSequence#0" expanded="false" />
+                <element signature="e#7691#8131#0" expanded="false" />
+                <element signature="n#!!block;n#SumOfTwoLowest#0" expanded="false" />
+                <element signature="n#!!block;n#RemoveMin#0" expanded="false" />
+                <element signature="n#!!block;n#DontGiveMeFive#0" expanded="false" />
+                <element signature="n#!!block;n#ExesAndOhs#0" expanded="false" />
+                <element signature="n#!!block;n#FindEvenOrOddVal#0" expanded="false" />
+                <element signature="n#!!block;n#DifferentArray#0" expanded="false" />
+                <element signature="n#!!block;n#PlayWithDigits#0" expanded="false" />
+                <element signature="n#!!block;n#YourOrderPlease#0" expanded="false" />
+                <element signature="n#!!block;n#Dubstep#0" expanded="false" />
+                <element signature="n#!!block;n#TwoInOne#0" expanded="false" />
+                <element signature="n#!!block;n#StopSpinningWord#0" expanded="false" />
+                <element signature="n#!!block;n#CountDuplicateAmount#0" expanded="false" />
+                <element signature="e#16411#16924#0" expanded="false" />
+                <element signature="n#!!block;n#LargestPair#0" expanded="false" />
+                <element signature="n#!!block;n#ArrayMatching#0" expanded="false" />
+                <element signature="n#!!block;n#IQTest#0" expanded="false" />
+                <element signature="n#!!block;n#LongestConsecString#0" expanded="false" />
+                <element signature="n#!!block;n#ShortestString#0" expanded="false" />
+                <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
+                <element signature="n#!!block;n#SumOfOddIntegers#0" expanded="false" />
                 <element signature="n#!!block;n#MoveZerosToEnd#0" expanded="false" />
                 <element signature="n#!!block;n#SumMultiplier#0" expanded="false" />
+                <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
                 <element signature="n#!!block;n#PrimeMover#0" expanded="false" />
-                <element signature="e#32462#32742#0" expanded="false" />
+                <element signature="e#32232#32512#0" expanded="false" />
                 <element signature="n#!!block;n#SimpleMode#0" expanded="false" />
-                <element signature="e#33654#33830#0" expanded="false" />
+                <element signature="e#33424#33600#0" expanded="false" />
                 <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
               </folding>
             </state>
@@ -182,18 +215,20 @@
       <workItem from="1507492355514" duration="9175000" />
       <workItem from="1507517765067" duration="84000" />
       <workItem from="1507526439893" duration="2883000" />
-      <workItem from="1507530431199" duration="120000" />
+      <workItem from="1507530431199" duration="503000" />
+      <workItem from="1507578080064" duration="288000" />
+      <workItem from="1507651379340" duration="1432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51827000" />
+    <option name="totallyTimeSpent" value="53930000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="853" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="853" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25107297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2546495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -229,12 +264,45 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#!!block;n#VowelCount#0" expanded="false" />
+            <element signature="n#!!block;n#Mumbling#0" expanded="false" />
+            <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
+            <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
+            <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
+            <element signature="n#!!block;n#CompDNA#0" expanded="false" />
+            <element signature="n#!!block;n#SquareEveryDigit#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestWord#0" expanded="false" />
+            <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
+            <element signature="n#!!block;n#WhoLikesThis#0" expanded="false" />
+            <element signature="n#!!block;n#almostIncreasingSequence#0" expanded="false" />
+            <element signature="e#7691#8131#0" expanded="false" />
+            <element signature="n#!!block;n#SumOfTwoLowest#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveMin#0" expanded="false" />
+            <element signature="n#!!block;n#DontGiveMeFive#0" expanded="false" />
+            <element signature="n#!!block;n#ExesAndOhs#0" expanded="false" />
+            <element signature="n#!!block;n#FindEvenOrOddVal#0" expanded="false" />
+            <element signature="n#!!block;n#DifferentArray#0" expanded="false" />
+            <element signature="n#!!block;n#PlayWithDigits#0" expanded="false" />
+            <element signature="n#!!block;n#YourOrderPlease#0" expanded="false" />
+            <element signature="n#!!block;n#Dubstep#0" expanded="false" />
+            <element signature="n#!!block;n#TwoInOne#0" expanded="false" />
+            <element signature="n#!!block;n#StopSpinningWord#0" expanded="false" />
+            <element signature="n#!!block;n#CountDuplicateAmount#0" expanded="false" />
+            <element signature="e#16411#16924#0" expanded="false" />
+            <element signature="n#!!block;n#LargestPair#0" expanded="false" />
+            <element signature="n#!!block;n#ArrayMatching#0" expanded="false" />
+            <element signature="n#!!block;n#IQTest#0" expanded="false" />
+            <element signature="n#!!block;n#LongestConsecString#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!block;n#SumOfOddIntegers#0" expanded="false" />
             <element signature="n#!!block;n#MoveZerosToEnd#0" expanded="false" />
             <element signature="n#!!block;n#SumMultiplier#0" expanded="false" />
+            <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
             <element signature="n#!!block;n#PrimeMover#0" expanded="false" />
-            <element signature="e#32462#32742#0" expanded="false" />
+            <element signature="e#32232#32512#0" expanded="false" />
             <element signature="n#!!block;n#SimpleMode#0" expanded="false" />
-            <element signature="e#33654#33830#0" expanded="false" />
+            <element signature="e#33424#33600#0" expanded="false" />
             <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
           </folding>
         </state>
@@ -245,12 +313,45 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#!!block;n#VowelCount#0" expanded="false" />
+            <element signature="n#!!block;n#Mumbling#0" expanded="false" />
+            <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
+            <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
+            <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
+            <element signature="n#!!block;n#CompDNA#0" expanded="false" />
+            <element signature="n#!!block;n#SquareEveryDigit#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestWord#0" expanded="false" />
+            <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
+            <element signature="n#!!block;n#WhoLikesThis#0" expanded="false" />
+            <element signature="n#!!block;n#almostIncreasingSequence#0" expanded="false" />
+            <element signature="e#7691#8131#0" expanded="false" />
+            <element signature="n#!!block;n#SumOfTwoLowest#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveMin#0" expanded="false" />
+            <element signature="n#!!block;n#DontGiveMeFive#0" expanded="false" />
+            <element signature="n#!!block;n#ExesAndOhs#0" expanded="false" />
+            <element signature="n#!!block;n#FindEvenOrOddVal#0" expanded="false" />
+            <element signature="n#!!block;n#DifferentArray#0" expanded="false" />
+            <element signature="n#!!block;n#PlayWithDigits#0" expanded="false" />
+            <element signature="n#!!block;n#YourOrderPlease#0" expanded="false" />
+            <element signature="n#!!block;n#Dubstep#0" expanded="false" />
+            <element signature="n#!!block;n#TwoInOne#0" expanded="false" />
+            <element signature="n#!!block;n#StopSpinningWord#0" expanded="false" />
+            <element signature="n#!!block;n#CountDuplicateAmount#0" expanded="false" />
+            <element signature="e#16411#16924#0" expanded="false" />
+            <element signature="n#!!block;n#LargestPair#0" expanded="false" />
+            <element signature="n#!!block;n#ArrayMatching#0" expanded="false" />
+            <element signature="n#!!block;n#IQTest#0" expanded="false" />
+            <element signature="n#!!block;n#LongestConsecString#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!block;n#SumOfOddIntegers#0" expanded="false" />
             <element signature="n#!!block;n#MoveZerosToEnd#0" expanded="false" />
             <element signature="n#!!block;n#SumMultiplier#0" expanded="false" />
+            <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
             <element signature="n#!!block;n#PrimeMover#0" expanded="false" />
-            <element signature="e#32462#32742#0" expanded="false" />
+            <element signature="e#32232#32512#0" expanded="false" />
             <element signature="n#!!block;n#SimpleMode#0" expanded="false" />
-            <element signature="e#33654#33830#0" expanded="false" />
+            <element signature="e#33424#33600#0" expanded="false" />
             <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
           </folding>
         </state>
@@ -261,12 +362,143 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#!!block;n#VowelCount#0" expanded="false" />
+            <element signature="n#!!block;n#Mumbling#0" expanded="false" />
+            <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
+            <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
+            <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
+            <element signature="n#!!block;n#CompDNA#0" expanded="false" />
+            <element signature="n#!!block;n#SquareEveryDigit#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestWord#0" expanded="false" />
+            <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
+            <element signature="n#!!block;n#WhoLikesThis#0" expanded="false" />
+            <element signature="n#!!block;n#almostIncreasingSequence#0" expanded="false" />
+            <element signature="e#7691#8131#0" expanded="false" />
+            <element signature="n#!!block;n#SumOfTwoLowest#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveMin#0" expanded="false" />
+            <element signature="n#!!block;n#DontGiveMeFive#0" expanded="false" />
+            <element signature="n#!!block;n#ExesAndOhs#0" expanded="false" />
+            <element signature="n#!!block;n#FindEvenOrOddVal#0" expanded="false" />
+            <element signature="n#!!block;n#DifferentArray#0" expanded="false" />
+            <element signature="n#!!block;n#PlayWithDigits#0" expanded="false" />
+            <element signature="n#!!block;n#YourOrderPlease#0" expanded="false" />
+            <element signature="n#!!block;n#Dubstep#0" expanded="false" />
+            <element signature="n#!!block;n#TwoInOne#0" expanded="false" />
+            <element signature="n#!!block;n#StopSpinningWord#0" expanded="false" />
+            <element signature="n#!!block;n#CountDuplicateAmount#0" expanded="false" />
+            <element signature="e#16411#16924#0" expanded="false" />
+            <element signature="n#!!block;n#LargestPair#0" expanded="false" />
+            <element signature="n#!!block;n#ArrayMatching#0" expanded="false" />
+            <element signature="n#!!block;n#IQTest#0" expanded="false" />
+            <element signature="n#!!block;n#LongestConsecString#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!block;n#SumOfOddIntegers#0" expanded="false" />
             <element signature="n#!!block;n#MoveZerosToEnd#0" expanded="false" />
             <element signature="n#!!block;n#SumMultiplier#0" expanded="false" />
+            <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
             <element signature="n#!!block;n#PrimeMover#0" expanded="false" />
-            <element signature="e#32462#32742#0" expanded="false" />
+            <element signature="e#32232#32512#0" expanded="false" />
             <element signature="n#!!block;n#SimpleMode#0" expanded="false" />
-            <element signature="e#33654#33830#0" expanded="false" />
+            <element signature="e#33424#33600#0" expanded="false" />
+            <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#VowelCount#0" expanded="false" />
+            <element signature="n#!!block;n#Mumbling#0" expanded="false" />
+            <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
+            <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
+            <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
+            <element signature="n#!!block;n#CompDNA#0" expanded="false" />
+            <element signature="n#!!block;n#SquareEveryDigit#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestWord#0" expanded="false" />
+            <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
+            <element signature="n#!!block;n#WhoLikesThis#0" expanded="false" />
+            <element signature="n#!!block;n#almostIncreasingSequence#0" expanded="false" />
+            <element signature="e#7691#8131#0" expanded="false" />
+            <element signature="n#!!block;n#SumOfTwoLowest#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveMin#0" expanded="false" />
+            <element signature="n#!!block;n#DontGiveMeFive#0" expanded="false" />
+            <element signature="n#!!block;n#ExesAndOhs#0" expanded="false" />
+            <element signature="n#!!block;n#FindEvenOrOddVal#0" expanded="false" />
+            <element signature="n#!!block;n#DifferentArray#0" expanded="false" />
+            <element signature="n#!!block;n#PlayWithDigits#0" expanded="false" />
+            <element signature="n#!!block;n#YourOrderPlease#0" expanded="false" />
+            <element signature="n#!!block;n#Dubstep#0" expanded="false" />
+            <element signature="n#!!block;n#TwoInOne#0" expanded="false" />
+            <element signature="n#!!block;n#StopSpinningWord#0" expanded="false" />
+            <element signature="n#!!block;n#CountDuplicateAmount#0" expanded="false" />
+            <element signature="e#16411#16924#0" expanded="false" />
+            <element signature="n#!!block;n#LargestPair#0" expanded="false" />
+            <element signature="n#!!block;n#ArrayMatching#0" expanded="false" />
+            <element signature="n#!!block;n#IQTest#0" expanded="false" />
+            <element signature="n#!!block;n#LongestConsecString#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!block;n#SumOfOddIntegers#0" expanded="false" />
+            <element signature="n#!!block;n#MoveZerosToEnd#0" expanded="false" />
+            <element signature="n#!!block;n#SumMultiplier#0" expanded="false" />
+            <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
+            <element signature="n#!!block;n#PrimeMover#0" expanded="false" />
+            <element signature="e#32232#32512#0" expanded="false" />
+            <element signature="n#!!block;n#SimpleMode#0" expanded="false" />
+            <element signature="e#33424#33600#0" expanded="false" />
+            <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#VowelCount#0" expanded="false" />
+            <element signature="n#!!block;n#Mumbling#0" expanded="false" />
+            <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
+            <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
+            <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
+            <element signature="n#!!block;n#CompDNA#0" expanded="false" />
+            <element signature="n#!!block;n#SquareEveryDigit#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestWord#0" expanded="false" />
+            <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
+            <element signature="n#!!block;n#WhoLikesThis#0" expanded="false" />
+            <element signature="n#!!block;n#almostIncreasingSequence#0" expanded="false" />
+            <element signature="e#7691#8131#0" expanded="false" />
+            <element signature="n#!!block;n#SumOfTwoLowest#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveMin#0" expanded="false" />
+            <element signature="n#!!block;n#DontGiveMeFive#0" expanded="false" />
+            <element signature="n#!!block;n#ExesAndOhs#0" expanded="false" />
+            <element signature="n#!!block;n#FindEvenOrOddVal#0" expanded="false" />
+            <element signature="n#!!block;n#DifferentArray#0" expanded="false" />
+            <element signature="n#!!block;n#PlayWithDigits#0" expanded="false" />
+            <element signature="n#!!block;n#YourOrderPlease#0" expanded="false" />
+            <element signature="n#!!block;n#Dubstep#0" expanded="false" />
+            <element signature="n#!!block;n#TwoInOne#0" expanded="false" />
+            <element signature="n#!!block;n#StopSpinningWord#0" expanded="false" />
+            <element signature="n#!!block;n#CountDuplicateAmount#0" expanded="false" />
+            <element signature="e#16411#16924#0" expanded="false" />
+            <element signature="n#!!block;n#LargestPair#0" expanded="false" />
+            <element signature="n#!!block;n#ArrayMatching#0" expanded="false" />
+            <element signature="n#!!block;n#IQTest#0" expanded="false" />
+            <element signature="n#!!block;n#LongestConsecString#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!block;n#SumOfOddIntegers#0" expanded="false" />
+            <element signature="n#!!block;n#MoveZerosToEnd#0" expanded="false" />
+            <element signature="n#!!block;n#SumMultiplier#0" expanded="false" />
+            <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
+            <element signature="n#!!block;n#PrimeMover#0" expanded="false" />
+            <element signature="e#32232#32512#0" expanded="false" />
+            <element signature="n#!!block;n#SimpleMode#0" expanded="false" />
+            <element signature="e#33424#33600#0" expanded="false" />
             <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
           </folding>
         </state>
@@ -331,15 +563,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="1336" column="0" lean-forward="true" selection-start-line="1336" selection-start-column="0" selection-end-line="1336" selection-end-column="0" />
+        <state relative-caret-position="258">
+          <caret line="1330" column="71" lean-forward="false" selection-start-line="1330" selection-start-column="71" selection-end-line="1330" selection-end-column="71" />
           <folding>
+            <element signature="n#!!block;n#VowelCount#0" expanded="false" />
+            <element signature="n#!!block;n#Mumbling#0" expanded="false" />
+            <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
+            <element signature="n#!!block;n#FindOddInt#0" expanded="false" />
+            <element signature="n#!!block;n#LeastAndGreatest#0" expanded="false" />
+            <element signature="n#!!block;n#CompDNA#0" expanded="false" />
+            <element signature="n#!!block;n#SquareEveryDigit#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestWord#0" expanded="false" />
+            <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
+            <element signature="n#!!block;n#WhoLikesThis#0" expanded="false" />
+            <element signature="n#!!block;n#almostIncreasingSequence#0" expanded="false" />
+            <element signature="e#7691#8131#0" expanded="false" />
+            <element signature="n#!!block;n#SumOfTwoLowest#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveMin#0" expanded="false" />
+            <element signature="n#!!block;n#DontGiveMeFive#0" expanded="false" />
+            <element signature="n#!!block;n#ExesAndOhs#0" expanded="false" />
+            <element signature="n#!!block;n#FindEvenOrOddVal#0" expanded="false" />
+            <element signature="n#!!block;n#DifferentArray#0" expanded="false" />
+            <element signature="n#!!block;n#PlayWithDigits#0" expanded="false" />
+            <element signature="n#!!block;n#YourOrderPlease#0" expanded="false" />
+            <element signature="n#!!block;n#Dubstep#0" expanded="false" />
+            <element signature="n#!!block;n#TwoInOne#0" expanded="false" />
+            <element signature="n#!!block;n#StopSpinningWord#0" expanded="false" />
+            <element signature="n#!!block;n#CountDuplicateAmount#0" expanded="false" />
+            <element signature="e#16411#16924#0" expanded="false" />
+            <element signature="n#!!block;n#LargestPair#0" expanded="false" />
+            <element signature="n#!!block;n#ArrayMatching#0" expanded="false" />
+            <element signature="n#!!block;n#IQTest#0" expanded="false" />
+            <element signature="n#!!block;n#LongestConsecString#0" expanded="false" />
+            <element signature="n#!!block;n#ShortestString#0" expanded="false" />
+            <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
+            <element signature="n#!!block;n#SumOfOddIntegers#0" expanded="false" />
             <element signature="n#!!block;n#MoveZerosToEnd#0" expanded="false" />
             <element signature="n#!!block;n#SumMultiplier#0" expanded="false" />
+            <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
             <element signature="n#!!block;n#PrimeMover#0" expanded="false" />
-            <element signature="e#32462#32742#0" expanded="false" />
+            <element signature="e#32232#32512#0" expanded="false" />
             <element signature="n#!!block;n#SimpleMode#0" expanded="false" />
-            <element signature="e#33654#33830#0" expanded="false" />
+            <element signature="e#33424#33600#0" expanded="false" />
             <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
           </folding>
         </state>
