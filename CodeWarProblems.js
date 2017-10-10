@@ -1368,7 +1368,32 @@ console.log(GCF(8,16));
 console.log(GCF(100,8));
 console.log(GCF(100,50));
 
+/**
+ *
+ * @param strValue
+ * @return {string}
+ * @constructor
+ */
+function RunLength(strValue) {
+    let letterAmountObject = [],
+        current = 1;
 
+    for(let i=0; i<=strValue.length-1; i++){
+        if(strValue[i] !== strValue[i+1]){
+            let stringForLetterAmt = current+''+strValue[i];
+            letterAmountObject.push(stringForLetterAmt);
+            current = 1;
+        }else{
+            current++;
+        }
+    }
+    return letterAmountObject.join('');
+}
+
+console.log('');
+console.log('Run Length');
+console.log(RunLength("aabbcde"));
+console.log(RunLength("wwwbbbw"));
 
 
 
