@@ -400,14 +400,14 @@ console.log(DontGiveMeFive(-16,11));
 function ExesAndOhs(str) {
     let totalAmount = 0;
 
-    if(!str.toLowerCase().includes('x') && !str.toLowerCase().includes('o')){
+    if(!str.toLowerCase().includes('index') && !str.toLowerCase().includes('o')){
         return true;
-    }else if(!str.toLowerCase().includes('x') || !str.toLowerCase().includes('o')){
+    }else if(!str.toLowerCase().includes('index') || !str.toLowerCase().includes('o')){
         return false;
     }
 
     for(let i=0; i<=str.length-1; i++){
-        if(str[i].toLowerCase() === 'x' || str[i].toLowerCase() === 'o'){
+        if(str[i].toLowerCase() === 'index' || str[i].toLowerCase() === 'o'){
             totalAmount++;
         }
     }
@@ -1500,16 +1500,19 @@ console.log(ThreeSum([12, 3, 1, -5, -4, 7]));
 console.log(ThreeSum([64, 3, 50, 45, 32, 14, 50, 45, 31, 66, 22, 15, 16, 20]));
 console.log(ThreeSum([10, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5, 5, 5, 5, 5, 8, -2, -2, -2, -2, -1, 7]));
 
+/**
+ *
+ * @param a
+ * @param b
+ * @param c
+ * @return {boolean}
+ * @constructor
+ */
+function DetermineIfTriangle(a,b,c){
+    return ((a+b > c) && (a+c > b) && (b+c > a));
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+console.log('');
+console.log('Determine If Triangle');
+console.log(DetermineIfTriangle(1,2,2));
+console.log(DetermineIfTriangle(7,2,2));
