@@ -1566,5 +1566,35 @@ console.log('Swap Case');
 console.log(SwapCase("Hello-LOL"));
 console.log(SwapCase("Sup DUDE!!?"));
 
+/**
+ *
+ * @param str
+ * @return {boolean}
+ * @constructor
+ */
+function AlphabetSearching(str) {
+    if(str.length < 26){
+        return false;
+    }
+    str = str.toLowerCase();
+    for(let i=97; i<=122; i++){
+        if(!str.includes(String.fromCharCode(i))){
+            return false;
+        }
+    }
+    return true;
+}
+
+console.log('');
+console.log('Alphabet Search');
+console.log(AlphabetSearching("Hello-LOL"));
+console.log(AlphabetSearching("Sup DUDE!!?"));
+console.log(AlphabetSearching("abcdefghijklmnopqrstuvwxyyyy"));
+console.log(AlphabetSearching("abc123456kmo"));
+console.log(AlphabetSearching("zacxyjbbkfgtbhdaielqrm45pnsowtuv"));
+
+
+
+
 
 
