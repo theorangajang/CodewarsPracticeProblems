@@ -1593,7 +1593,34 @@ console.log(AlphabetSearching("abcdefghijklmnopqrstuvwxyyyy"));
 console.log(AlphabetSearching("abc123456kmo"));
 console.log(AlphabetSearching("zacxyjbbkfgtbhdaielqrm45pnsowtuv"));
 
+/**
+ *
+ * @param str
+ * @return {*}
+ * @constructor
+ */
+function CamelCase(str) {
+    if(str.length === 0){
+        return str;
+    }
+    let newStr = '';
+    str = str.toLowerCase();
 
+    for(let i=0; i<=str.length-1; i++){
+        !str[i].match(/[A-Za-z]/) ? newStr += ' ' : newStr += str[i];
+    }
+
+    newStr = newStr.split(' ');
+    for(let i=0; i<=newStr.length-1; i++){
+        newStr[i] = i === 0 ? newStr[i] = newStr[i].replace(/newStr[i][0]/g, newStr[i][0].toLowerCase()) : newStr[i] = newStr[i].replace(newStr[i][0], newStr[i][0].toUpperCase());
+    }
+    return newStr.join('');
+}
+
+console.log('');
+console.log('Camel Case');
+console.log(CamelCase("cats AND*Dogs-are Awesome"));
+console.log(CamelCase("a b c d-e-f%g"));
 
 
 
