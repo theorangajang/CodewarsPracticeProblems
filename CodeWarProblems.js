@@ -1516,3 +1516,36 @@ console.log('');
 console.log('Determine If Triangle');
 console.log(DetermineIfTriangle(1,2,2));
 console.log(DetermineIfTriangle(7,2,2));
+
+function SortOdds(arr) {
+    if(arr.length < 1) return arr;
+    for(let i=0; i<=arr.length-1; i++){
+        if(arr[i] % 2 !== 0 && arr[i] !== 0){
+            for(let j=i+1; j<=arr.length-1; j++){
+                if(arr[j] % 2 !== 0 && arr[j] !== 0 && arr[i] > arr[j]){
+                    let temp = arr[j];
+                    arr[j] = arr[i];
+                    arr[i] = temp;
+                }
+            }
+        }
+    }
+    return arr;
+}
+
+console.log('');
+console.log('Sort Odd');
+console.log(SortOdds([5, 3, 2, 8, 1, 4]));
+console.log(SortOdds([5, 3, 2, 8, 1, 4]));
+console.log(SortOdds([5, 3, 1, 8, 0]));
+console.log(SortOdds([]));
+
+
+
+
+
+
+
+
+
+

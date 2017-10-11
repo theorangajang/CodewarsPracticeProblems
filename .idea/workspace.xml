@@ -19,8 +19,8 @@
       <file leaf-file-name="CodeWarProblems.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="1511" column="4" lean-forward="false" selection-start-line="1511" selection-start-column="4" selection-end-line="1511" selection-end-column="49" />
+            <state relative-caret-position="232">
+              <caret line="1520" column="4" lean-forward="true" selection-start-line="1520" selection-start-column="4" selection-end-line="1532" selection-end-column="15" />
               <folding>
                 <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
                 <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
@@ -190,12 +190,12 @@
       <workItem from="1507526439893" duration="2883000" />
       <workItem from="1507530431199" duration="503000" />
       <workItem from="1507578080064" duration="288000" />
-      <workItem from="1507651379340" duration="17775000" />
+      <workItem from="1507651379340" duration="18925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70273000" />
+    <option name="totallyTimeSpent" value="71423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="853" extended-state="0" />
@@ -406,8 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="1511" column="4" lean-forward="false" selection-start-line="1511" selection-start-column="4" selection-end-line="1511" selection-end-column="49" />
+        <state relative-caret-position="232">
+          <caret line="1520" column="4" lean-forward="true" selection-start-line="1520" selection-start-column="4" selection-end-line="1532" selection-end-column="15" />
           <folding>
             <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
             <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
