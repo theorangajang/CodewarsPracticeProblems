@@ -1622,6 +1622,40 @@ console.log('Camel Case');
 console.log(CamelCase("cats AND*Dogs-are Awesome"));
 console.log(CamelCase("a b c d-e-f%g"));
 
+/**
+ *
+ * @param arr
+ * @return {*}
+ * @constructor
+ */
+function Consecutive(arr) {
+
+    if(arr.length < 2){
+        return nil;
+    }
+
+    let largest,
+        smallest,
+        amt = 0;
+    arr = arr.sort(function (a, b) { return a-b; });
+
+    largest = arr[arr.length-1];
+    smallest = arr[0];
+
+    for(let i=smallest; i<=largest; i++){
+        if(!arr.includes(i)){
+            amt++;
+        }
+    }
+
+    return amt;
+}
+
+console.log('');
+console.log('Consecutive');
+console.log(Consecutive([5,10,15]));
+console.log(Consecutive([-2,10,4]));
+
 
 
 

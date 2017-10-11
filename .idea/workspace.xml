@@ -19,8 +19,8 @@
       <file leaf-file-name="CodeWarProblems.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="1602" column="4" lean-forward="true" selection-start-line="1602" selection-start-column="4" selection-end-line="1616" selection-end-column="27" />
+            <state relative-caret-position="164">
+              <caret line="1632" column="4" lean-forward="false" selection-start-line="1632" selection-start-column="4" selection-end-line="1650" selection-end-column="15" />
               <folding>
                 <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
                 <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
@@ -35,6 +35,10 @@
                 <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
                 <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
                 <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+                <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
+                <element signature="n#!!block;n#CamelCase#0" expanded="false" />
+                <element signature="e#41135#41162#0" expanded="false" />
+                <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -190,12 +194,12 @@
       <workItem from="1507530431199" duration="503000" />
       <workItem from="1507578080064" duration="288000" />
       <workItem from="1507651379340" duration="19595000" />
-      <workItem from="1507759456005" duration="3229000" />
+      <workItem from="1507759456005" duration="3653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75322000" />
+    <option name="totallyTimeSpent" value="75746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="853" extended-state="0" />
@@ -250,6 +254,10 @@
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
+            <element signature="n#!!block;n#CamelCase#0" expanded="false" />
+            <element signature="e#41135#41162#0" expanded="false" />
+            <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -272,6 +280,10 @@
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
+            <element signature="n#!!block;n#CamelCase#0" expanded="false" />
+            <element signature="e#41135#41162#0" expanded="false" />
+            <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -294,6 +306,10 @@
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
+            <element signature="n#!!block;n#CamelCase#0" expanded="false" />
+            <element signature="e#41135#41162#0" expanded="false" />
+            <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -316,6 +332,10 @@
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
+            <element signature="n#!!block;n#CamelCase#0" expanded="false" />
+            <element signature="e#41135#41162#0" expanded="false" />
+            <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -338,6 +358,10 @@
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
+            <element signature="n#!!block;n#CamelCase#0" expanded="false" />
+            <element signature="e#41135#41162#0" expanded="false" />
+            <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -360,6 +384,10 @@
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
+            <element signature="n#!!block;n#CamelCase#0" expanded="false" />
+            <element signature="e#41135#41162#0" expanded="false" />
+            <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -423,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="1602" column="4" lean-forward="true" selection-start-line="1602" selection-start-column="4" selection-end-line="1616" selection-end-column="27" />
+        <state relative-caret-position="164">
+          <caret line="1632" column="4" lean-forward="false" selection-start-line="1632" selection-start-column="4" selection-end-line="1650" selection-end-column="15" />
           <folding>
             <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
             <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
@@ -439,6 +467,10 @@
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
+            <element signature="n#!!block;n#CamelCase#0" expanded="false" />
+            <element signature="e#41135#41162#0" expanded="false" />
+            <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
           </folding>
         </state>
       </provider>
