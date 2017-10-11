@@ -1540,12 +1540,31 @@ console.log(SortOdds([5, 3, 2, 8, 1, 4]));
 console.log(SortOdds([5, 3, 1, 8, 0]));
 console.log(SortOdds([]));
 
+/**
+ *
+ * @param str
+ * @return {*}
+ * @constructor
+ */
+function SwapCase(str) {
+    let newStr = '';
+    if(str.length < 1) return str;
+    for(let i=0; i<=str.length-1;i++){
+        if(str[i] === str[i].toUpperCase()){
+            newStr += str[i].toLowerCase()
+        }else if(str[i] === str[i].toLowerCase()){
+            newStr += str[i].toUpperCase();
+        }else{
+            newStr += str[i]
+        }
+    }
+    return newStr;
+}
 
-
-
-
-
-
+console.log('');
+console.log('Swap Case');
+console.log(SwapCase("Hello-LOL"));
+console.log(SwapCase("Sup DUDE!!?"));
 
 
 
