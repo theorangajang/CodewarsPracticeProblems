@@ -1656,6 +1656,46 @@ console.log('Consecutive');
 console.log(Consecutive([5,10,15]));
 console.log(Consecutive([-2,10,4]));
 
+function DashInsertII(str) {
+    str = str.split('');
+
+    let newStr = '';
+
+    for(let i=0; i<=str.length-1; i++){
+        newStr += str[i];
+        if(i !== str.length-1 && Number(str[i]) !== 0 && Number(str[i+1]) !== 0){
+            if(Number(str[i]) % 2 === 0 && Number(str[i+1]) % 2 === 0){
+                newStr += '*';
+            }else if(Number(str[i]) % 2 !== 0 && Number(str[i+1]) % 2 !== 0){
+                newStr += '-';
+            }
+        }
+    }
+
+    return newStr;
+}
+
+console.log('');
+console.log('Dash Insert II');
+console.log(DashInsertII('99946'));
+console.log(DashInsertII('56647304'));
+console.log(DashInsertII('567'));
+console.log(DashInsertII('10120'));
+console.log(DashInsertII('60497642'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -19,8 +19,8 @@
       <file leaf-file-name="CodeWarProblems.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="1632" column="4" lean-forward="false" selection-start-line="1632" selection-start-column="4" selection-end-line="1650" selection-end-column="15" />
+            <state relative-caret-position="61">
+              <caret line="1659" column="4" lean-forward="true" selection-start-line="1659" selection-start-column="4" selection-end-line="1674" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
                 <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
@@ -32,13 +32,23 @@
                 <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
                 <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
                 <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
+                <element signature="n#!!block;n#RunLength#0" expanded="false" />
+                <element signature="n#!!block;n#ArithGeoTwo#0" expanded="false" />
+                <element signature="n#!!block;n#TwoSum#0" expanded="false" />
+                <element signature="n#!!block;n#ThreeSum#0" expanded="false" />
+                <element signature="e#38114#38512#0" expanded="false" />
                 <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
+                <element signature="n#!!block;n#SortOdds#0" expanded="false" />
                 <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
+                <element signature="n#!!block;n#SwapCase#0" expanded="false" />
                 <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+                <element signature="n#!!block;n#AlphabetSearching#0" expanded="false" />
                 <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
                 <element signature="n#!!block;n#CamelCase#0" expanded="false" />
                 <element signature="e#41135#41162#0" expanded="false" />
                 <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
+                <element signature="n#!!block;n#Consecutive#0" expanded="false" />
+                <element signature="e#41869#41896#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -194,12 +204,12 @@
       <workItem from="1507530431199" duration="503000" />
       <workItem from="1507578080064" duration="288000" />
       <workItem from="1507651379340" duration="19595000" />
-      <workItem from="1507759456005" duration="3653000" />
+      <workItem from="1507759456005" duration="5646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75746000" />
+    <option name="totallyTimeSpent" value="77739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="853" extended-state="0" />
@@ -251,13 +261,23 @@
             <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
             <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
             <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
+            <element signature="n#!!block;n#RunLength#0" expanded="false" />
+            <element signature="n#!!block;n#ArithGeoTwo#0" expanded="false" />
+            <element signature="n#!!block;n#TwoSum#0" expanded="false" />
+            <element signature="n#!!block;n#ThreeSum#0" expanded="false" />
+            <element signature="e#38114#38512#0" expanded="false" />
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
+            <element signature="n#!!block;n#SortOdds#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
+            <element signature="n#!!block;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!block;n#AlphabetSearching#0" expanded="false" />
             <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
             <element signature="n#!!block;n#CamelCase#0" expanded="false" />
             <element signature="e#41135#41162#0" expanded="false" />
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
+            <element signature="n#!!block;n#Consecutive#0" expanded="false" />
+            <element signature="e#41869#41896#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -277,13 +297,23 @@
             <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
             <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
             <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
+            <element signature="n#!!block;n#RunLength#0" expanded="false" />
+            <element signature="n#!!block;n#ArithGeoTwo#0" expanded="false" />
+            <element signature="n#!!block;n#TwoSum#0" expanded="false" />
+            <element signature="n#!!block;n#ThreeSum#0" expanded="false" />
+            <element signature="e#38114#38512#0" expanded="false" />
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
+            <element signature="n#!!block;n#SortOdds#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
+            <element signature="n#!!block;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!block;n#AlphabetSearching#0" expanded="false" />
             <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
             <element signature="n#!!block;n#CamelCase#0" expanded="false" />
             <element signature="e#41135#41162#0" expanded="false" />
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
+            <element signature="n#!!block;n#Consecutive#0" expanded="false" />
+            <element signature="e#41869#41896#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -303,13 +333,23 @@
             <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
             <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
             <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
+            <element signature="n#!!block;n#RunLength#0" expanded="false" />
+            <element signature="n#!!block;n#ArithGeoTwo#0" expanded="false" />
+            <element signature="n#!!block;n#TwoSum#0" expanded="false" />
+            <element signature="n#!!block;n#ThreeSum#0" expanded="false" />
+            <element signature="e#38114#38512#0" expanded="false" />
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
+            <element signature="n#!!block;n#SortOdds#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
+            <element signature="n#!!block;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!block;n#AlphabetSearching#0" expanded="false" />
             <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
             <element signature="n#!!block;n#CamelCase#0" expanded="false" />
             <element signature="e#41135#41162#0" expanded="false" />
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
+            <element signature="n#!!block;n#Consecutive#0" expanded="false" />
+            <element signature="e#41869#41896#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -329,13 +369,23 @@
             <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
             <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
             <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
+            <element signature="n#!!block;n#RunLength#0" expanded="false" />
+            <element signature="n#!!block;n#ArithGeoTwo#0" expanded="false" />
+            <element signature="n#!!block;n#TwoSum#0" expanded="false" />
+            <element signature="n#!!block;n#ThreeSum#0" expanded="false" />
+            <element signature="e#38114#38512#0" expanded="false" />
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
+            <element signature="n#!!block;n#SortOdds#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
+            <element signature="n#!!block;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!block;n#AlphabetSearching#0" expanded="false" />
             <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
             <element signature="n#!!block;n#CamelCase#0" expanded="false" />
             <element signature="e#41135#41162#0" expanded="false" />
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
+            <element signature="n#!!block;n#Consecutive#0" expanded="false" />
+            <element signature="e#41869#41896#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -355,13 +405,23 @@
             <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
             <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
             <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
+            <element signature="n#!!block;n#RunLength#0" expanded="false" />
+            <element signature="n#!!block;n#ArithGeoTwo#0" expanded="false" />
+            <element signature="n#!!block;n#TwoSum#0" expanded="false" />
+            <element signature="n#!!block;n#ThreeSum#0" expanded="false" />
+            <element signature="e#38114#38512#0" expanded="false" />
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
+            <element signature="n#!!block;n#SortOdds#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
+            <element signature="n#!!block;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!block;n#AlphabetSearching#0" expanded="false" />
             <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
             <element signature="n#!!block;n#CamelCase#0" expanded="false" />
             <element signature="e#41135#41162#0" expanded="false" />
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
+            <element signature="n#!!block;n#Consecutive#0" expanded="false" />
+            <element signature="e#41869#41896#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -381,13 +441,23 @@
             <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
             <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
             <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
+            <element signature="n#!!block;n#RunLength#0" expanded="false" />
+            <element signature="n#!!block;n#ArithGeoTwo#0" expanded="false" />
+            <element signature="n#!!block;n#TwoSum#0" expanded="false" />
+            <element signature="n#!!block;n#ThreeSum#0" expanded="false" />
+            <element signature="e#38114#38512#0" expanded="false" />
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
+            <element signature="n#!!block;n#SortOdds#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
+            <element signature="n#!!block;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!block;n#AlphabetSearching#0" expanded="false" />
             <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
             <element signature="n#!!block;n#CamelCase#0" expanded="false" />
             <element signature="e#41135#41162#0" expanded="false" />
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
+            <element signature="n#!!block;n#Consecutive#0" expanded="false" />
+            <element signature="e#41869#41896#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -451,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="1632" column="4" lean-forward="false" selection-start-line="1632" selection-start-column="4" selection-end-line="1650" selection-end-column="15" />
+        <state relative-caret-position="61">
+          <caret line="1659" column="4" lean-forward="true" selection-start-line="1659" selection-start-column="4" selection-end-line="1674" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
             <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
@@ -464,13 +534,23 @@
             <element signature="n#!!block;n#FindSmallestInArray#0" expanded="false" />
             <element signature="n#!!doc;n#PrimeMover#0" expanded="false" />
             <element signature="n#!!doc;n#CaesarCipher#0" expanded="false" />
+            <element signature="n#!!block;n#RunLength#0" expanded="false" />
+            <element signature="n#!!block;n#ArithGeoTwo#0" expanded="false" />
+            <element signature="n#!!block;n#TwoSum#0" expanded="false" />
+            <element signature="n#!!block;n#ThreeSum#0" expanded="false" />
+            <element signature="e#38114#38512#0" expanded="false" />
             <element signature="n#!!doc;n#DetermineIfTriangle#0" expanded="false" />
+            <element signature="n#!!block;n#SortOdds#0" expanded="false" />
             <element signature="n#!!doc;n#SwapCase#0" expanded="false" />
+            <element signature="n#!!block;n#SwapCase#0" expanded="false" />
             <element signature="n#!!doc;n#AlphabetSearching#0" expanded="false" />
+            <element signature="n#!!block;n#AlphabetSearching#0" expanded="false" />
             <element signature="n#!!doc;n#CamelCase#0" expanded="false" />
             <element signature="n#!!block;n#CamelCase#0" expanded="false" />
             <element signature="e#41135#41162#0" expanded="false" />
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
+            <element signature="n#!!block;n#Consecutive#0" expanded="false" />
+            <element signature="e#41869#41896#0" expanded="false" />
           </folding>
         </state>
       </provider>
