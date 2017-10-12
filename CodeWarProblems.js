@@ -1835,4 +1835,26 @@ console.log(BartLisaMaggie([ {name: 'Bart'}, {name: 'Lisa'} ]));
 console.log(BartLisaMaggie([ {name: 'Bart'} ]));
 console.log(BartLisaMaggie([]));
 
+/**
+ *
+ * @param letterArr
+ * @return {string}
+ * @constructor
+ */
+function FindMissingLetter(letterArr) {
+    let fullWord = letterArr.join(''),
+        firstLetter = fullWord.charCodeAt(0),
+        lastLetter = fullWord.charCodeAt(fullWord.length-1);
 
+    for(let i=firstLetter; i<=lastLetter; i++){
+        let currentLetter = String.fromCharCode(i);
+        if(!fullWord.includes(currentLetter)){
+            return currentLetter;
+        }
+    }
+}
+
+console.log('');
+console.log('Find Missing Letter');
+console.log(FindMissingLetter(['a','b','c','d','f']));
+console.log(FindMissingLetter(['O','Q','R','S']));
