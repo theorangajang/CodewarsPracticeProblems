@@ -1761,11 +1761,15 @@ console.log(PrimeChecker(98));
 console.log(PrimeChecker(598));
 console.log(PrimeChecker(100));
 
+function WordCount(str) {
+    return str !== '' ? str.split(' ').length : 0;
+}
 
-
-
-
-
+console.log('');
+console.log('Word Count');
+console.log(WordCount("Hello World"));
+console.log(WordCount(""));
+console.log(WordCount("one 22 three"));
 
 
 
