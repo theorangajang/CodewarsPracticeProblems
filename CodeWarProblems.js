@@ -1683,8 +1683,29 @@ console.log(DashInsertII('567'));
 console.log(DashInsertII('10120'));
 console.log(DashInsertII('60497642'));
 
+function NumberSearch(str) {
+    if(str.length < 1){
+        return str;
+    }
+    let letterCount = 0,
+        sum = 0;
 
+    for(let i=0; i<=str.length-1; i++){
+        if(str[i].match(/[A-Za-z]/)){
+            letterCount++;
+        }else if(str[i].match(/[0-9]/)){
+            sum += Number(str[i]);
+        }
+    }
 
+    return Math.round(sum/letterCount);
+}
+
+console.log('');
+console.log('Number Search');
+console.log(NumberSearch("H3ello9-9"));
+console.log(NumberSearch("One Number*1*"));
+console.log(NumberSearch("Hello6 9World 2, Nic8e D7ay!"));
 
 
 
