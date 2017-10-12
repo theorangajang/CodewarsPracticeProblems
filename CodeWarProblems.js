@@ -1771,6 +1771,68 @@ console.log(WordCount("Hello World"));
 console.log(WordCount(""));
 console.log(WordCount("one 22 three"));
 
+function NumberAddition(str) {
+    let currentNum = '',
+        storeNumArr = [],
+        sum = 0;
 
+    str = str.split('');
+    console.log(str);
+    for(let i=0; i<=str.length-1; i++){
+        for(let j=0; j<=9; j++){
+            if(str[i] === String(j)){
+                currentNum += str[i];
+                break;
+            }
+        }
+
+        if(isNaN(str[i+1])){
+            currentNum = Number(currentNum);
+            storeNumArr.push(currentNum);
+            currentNum = '';
+        }
+    }
+
+    storeNumArr.map(function (element) {
+        sum += element;
+    });
+
+    return sum;
+}
+
+console.log('');
+console.log('Number Addition');
+console.log(NumberAddition('75Number9'));
+
+/**
+ *
+ * @param list
+ * @return {*}
+ * @constructor
+ */
+function BartLisaMaggie(list) {
+    //prev is stored based on what returned up until last index
+    //current is the current value at that index
+    //index is the current index
+    //array is the array you are current dealing with. in this case it is 'list'
+    return list.reduce(function(prev, current, index, array){
+        if (index === 0){
+            return current.name;
+        }
+        else if (index === array.length - 1){
+            return prev + ' & ' + current.name;
+        }
+        else {
+            return prev + ', ' + current.name;
+        }
+    }, '');
+}
+
+console.log('');
+console.log('Format String of Names');
+console.log(BartLisaMaggie([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ]));
+console.log(BartLisaMaggie([ {name: 'Bart'}, {name: 'Lisa'} ]));
+console.log(BartLisaMaggie([ {name: 'Bart'} ]));
+console.log(BartLisaMaggie([]));
 
 
