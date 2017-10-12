@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="577cabb3-313f-4217-baf1-725ed6df9c17" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeWarProblems.js" afterPath="$PROJECT_DIR$/CodeWarProblems.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,12 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="CodeWarProblems.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="1686" column="4" lean-forward="true" selection-start-line="1686" selection-start-column="4" selection-end-line="1700" selection-end-column="39" />
+            <state relative-caret-position="51">
+              <caret line="1717" column="4" lean-forward="false" selection-start-line="1717" selection-start-column="4" selection-end-line="1752" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
                 <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
@@ -49,6 +50,8 @@
                 <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
                 <element signature="n#!!block;n#Consecutive#0" expanded="false" />
                 <element signature="e#41869#41896#0" expanded="false" />
+                <element signature="n#!!block;n#NumberSearch#0" expanded="false" />
+                <element signature="n#!!doc;n#PrimeChecker#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -138,6 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,8 +154,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,12 +207,13 @@
       <workItem from="1507530431199" duration="503000" />
       <workItem from="1507578080064" duration="288000" />
       <workItem from="1507651379340" duration="19595000" />
-      <workItem from="1507759456005" duration="6008000" />
+      <workItem from="1507759456005" duration="6875000" />
+      <workItem from="1507784064985" duration="2279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78101000" />
+    <option name="totallyTimeSpent" value="81247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="853" extended-state="0" />
@@ -218,12 +222,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2546495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3018598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -241,7 +245,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -278,6 +282,8 @@
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
             <element signature="n#!!block;n#Consecutive#0" expanded="false" />
             <element signature="e#41869#41896#0" expanded="false" />
+            <element signature="n#!!block;n#NumberSearch#0" expanded="false" />
+            <element signature="n#!!doc;n#PrimeChecker#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -314,6 +320,8 @@
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
             <element signature="n#!!block;n#Consecutive#0" expanded="false" />
             <element signature="e#41869#41896#0" expanded="false" />
+            <element signature="n#!!block;n#NumberSearch#0" expanded="false" />
+            <element signature="n#!!doc;n#PrimeChecker#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -350,6 +358,8 @@
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
             <element signature="n#!!block;n#Consecutive#0" expanded="false" />
             <element signature="e#41869#41896#0" expanded="false" />
+            <element signature="n#!!block;n#NumberSearch#0" expanded="false" />
+            <element signature="n#!!doc;n#PrimeChecker#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -386,6 +396,8 @@
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
             <element signature="n#!!block;n#Consecutive#0" expanded="false" />
             <element signature="e#41869#41896#0" expanded="false" />
+            <element signature="n#!!block;n#NumberSearch#0" expanded="false" />
+            <element signature="n#!!doc;n#PrimeChecker#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -422,6 +434,8 @@
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
             <element signature="n#!!block;n#Consecutive#0" expanded="false" />
             <element signature="e#41869#41896#0" expanded="false" />
+            <element signature="n#!!block;n#NumberSearch#0" expanded="false" />
+            <element signature="n#!!doc;n#PrimeChecker#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -458,6 +472,8 @@
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
             <element signature="n#!!block;n#Consecutive#0" expanded="false" />
             <element signature="e#41869#41896#0" expanded="false" />
+            <element signature="n#!!block;n#NumberSearch#0" expanded="false" />
+            <element signature="n#!!doc;n#PrimeChecker#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -521,8 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="1686" column="4" lean-forward="true" selection-start-line="1686" selection-start-column="4" selection-end-line="1700" selection-end-column="39" />
+        <state relative-caret-position="51">
+          <caret line="1717" column="4" lean-forward="false" selection-start-line="1717" selection-start-column="4" selection-end-line="1752" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
             <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
@@ -551,6 +567,8 @@
             <element signature="n#!!doc;n#Consecutive#0" expanded="false" />
             <element signature="n#!!block;n#Consecutive#0" expanded="false" />
             <element signature="e#41869#41896#0" expanded="false" />
+            <element signature="n#!!block;n#NumberSearch#0" expanded="false" />
+            <element signature="n#!!doc;n#PrimeChecker#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -1708,8 +1708,58 @@ console.log(NumberSearch("One Number*1*"));
 console.log(NumberSearch("Hello6 9World 2, Nic8e D7ay!"));
 
 
+/**
+ *
+ * @param num
+ * @return {number}
+ * @constructor
+ */
+function PrimeChecker(num) {
+    num = String(num).split('');
+    num = num.map(function (element) {
+        return Number(element);
+    });
+
+    num = num.sort(function (a, b) {
+        return a-b;
+    });
+
+    let isPrime = false,
+        i = 0;
+    while(i <= num.length-1 && !isPrime){
+        let fullNum = Number(num.join(''));
+        isPrime = true;
+        // console.log(fullNum);
+        if(fullNum === 1 || fullNum === 0){
+            isPrime = false;
+        }else{
+            for(let j=2; j<fullNum; j++){
+                if(fullNum % j === 0){
+                    isPrime = false;
+                    break;
+                }
+            }
+        }
+
+        if(isPrime){
+            return 1;
+        }
+
+        temp = num.shift();
+        num.push(temp);
+        i++;
+    }
+
+    return 0;
+}
 
 
+console.log('');
+console.log('Prime Checker');
+console.log(PrimeChecker(901));
+console.log(PrimeChecker(98));
+console.log(PrimeChecker(598));
+console.log(PrimeChecker(100));
 
 
 
