@@ -1858,3 +1858,24 @@ console.log('');
 console.log('Find Missing Letter');
 console.log(FindMissingLetter(['a','b','c','d','f']));
 console.log(FindMissingLetter(['O','Q','R','S']));
+
+function CreatePhoneNumber(arr) {
+    arr.splice(0, 0, '(');
+    arr.splice(4, 0, ')', ' ');
+    arr.splice(9, 0, '-');
+    return arr.join('');
+}
+
+console.log('');
+console.log('Create Phone Number');
+console.log(CreatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));
+
+
+
+
+
+
+
+
+
+
