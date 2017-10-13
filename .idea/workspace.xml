@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="577cabb3-313f-4217-baf1-725ed6df9c17" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodeWarProblems.js" afterPath="$PROJECT_DIR$/CodeWarProblems.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="CodeWarProblems.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="1862" column="26" lean-forward="false" selection-start-line="1862" selection-start-column="26" selection-end-line="1862" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="1873" column="4" lean-forward="true" selection-start-line="1873" selection-start-column="4" selection-end-line="1887" selection-end-column="39" />
               <folding>
                 <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
                 <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />
@@ -210,12 +211,12 @@
       <workItem from="1507578080064" duration="288000" />
       <workItem from="1507651379340" duration="19595000" />
       <workItem from="1507759456005" duration="6875000" />
-      <workItem from="1507784064985" duration="9727000" />
+      <workItem from="1507784064985" duration="10125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88695000" />
+    <option name="totallyTimeSpent" value="89093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="853" extended-state="0" />
@@ -557,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeWarProblems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="1862" column="26" lean-forward="false" selection-start-line="1862" selection-start-column="26" selection-end-line="1862" selection-end-column="26" />
+        <state relative-caret-position="255">
+          <caret line="1873" column="4" lean-forward="true" selection-start-line="1873" selection-start-column="4" selection-end-line="1887" selection-end-column="39" />
           <folding>
             <element signature="n#!!doc;n#FindOddInt#0" expanded="false" />
             <element signature="n#!!block;n#BothSidesEqual#0" expanded="false" />

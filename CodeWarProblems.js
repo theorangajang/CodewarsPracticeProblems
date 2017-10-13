@@ -1870,7 +1870,28 @@ console.log('');
 console.log('Create Phone Number');
 console.log(CreatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));
 
+function BracketMatcher(str) {
+    let bracketAmount = 0;
 
+    for(let i=0; i<=str.length-1; i++){
+        if(str[i] === '('){
+            bracketAmount++;
+        }else if(str[i] === ')'){
+            bracketAmount--;
+        }
+
+        if(bracketAmount < 0){
+            return 0;
+        }
+    }
+
+    return bracketAmount === 0 ? 1 : 0;
+}
+
+console.log('');
+console.log('Bracket Matcher');
+console.log(BracketMatcher("(coder)(byte))"));
+console.log(BracketMatcher("(c(oder)) b(yte)"));
 
 
 
