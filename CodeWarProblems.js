@@ -1893,6 +1893,47 @@ console.log('Bracket Matcher');
 console.log(BracketMatcher("(coder)(byte))"));
 console.log(BracketMatcher("(c(oder)) b(yte)"));
 
+function EqualSidesOfArray(arr) {
+    if(arr.length <= 0){
+        return -1;
+    }
+
+    let i = 0;
+    while(i<=arr.length-1){
+        let right = i+1,
+            left = i-1,
+            sumLeft = (left < 0) ? 0 : arr[left],
+            sumRight = (right > arr.length-1) ? 0 : arr[right];
+
+        //must be arr.length-1 exclusive because since you add by 1 then add to sum, you will always get a NaN value
+        while(right < arr.length-1){
+            right++;
+            sumRight += arr[right];
+        }
+
+        //must be 0 exclusive because since you subtract by 1 then add to sum, you will always get a NaN value
+        while(left > 0){
+            left--;
+            sumLeft += arr[left];
+        }
+
+        if(sumLeft === sumRight){
+            return i;
+        }
+
+        i++;
+    }
+
+    return -1;
+}
+
+console.log('');
+console.log('Equal Sides of Array');
+console.log(EqualSidesOfArray([1,2,3,4,3,2,1]));
+console.log(EqualSidesOfArray([1,100,50,-51,1,1]));
+console.log(EqualSidesOfArray([1,2,3,4,5,6]));
+console.log(EqualSidesOfArray([20,10,30,10,10,15,35]));
+
 
 
 
